@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavShape, A, ASocials, ALogo, LogoSection, WebsiteSections, Socials } from "../utils/style/Nav"
+import { NavShape, A, ASocials, Logo, LogoSection, WebsiteSections, Socials } from "../utils/style/Nav"
 import { AiOutlineInstagram, AiOutlineYoutube } from "react-icons/ai"
 import { TbBrandTiktok } from "react-icons/tb"
 
@@ -8,13 +8,13 @@ function Nav() {
         <>
             <NavShape>
                 <LogoSection>
-                    <ALogo>Linconnu</ALogo>
+                    <Logo>Linconnu</Logo>
                 </LogoSection>
                 <WebsiteSections>
-                    <A>Bio</A>
-                    <A>Cours</A>
-                    <A>Prestation</A>
-                    <A>Contact</A>
+                    <A href='#bio'>Bio</A>
+                    <A href='#cours'>Cours</A>
+                    <A href='#prestation'>Prestation</A>
+                    <A href='#contact'>Contact</A>
                 </WebsiteSections>
                 <Socials>
                     <ASocials><AiOutlineInstagram /></ASocials>
