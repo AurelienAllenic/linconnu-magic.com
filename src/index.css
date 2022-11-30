@@ -9,3 +9,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.navbar{
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  margin-top: -5px;
+  opacity: 1;
+  z-index: 0;
+}
+
+.navbar.active{
+  opacity: 0.3;
+}
