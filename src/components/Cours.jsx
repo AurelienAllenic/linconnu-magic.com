@@ -1,11 +1,13 @@
 import React from 'react'
-import { ImageBio } from "../utils/style/bio"
-
+import { ImageCours } from "../utils/style/Cours"
+import { MainTitle } from "../utils/style/bio"
 function Cours() {
     return (
         <>
             <section id="cours">
-                <ImageBio ></ImageBio>
+                <ImageCours >
+                    <MainTitle>Cours</MainTitle>
+                </ImageCours>
             </section>
         </>
     )
