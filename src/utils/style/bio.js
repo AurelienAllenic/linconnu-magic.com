@@ -44,7 +44,6 @@ z-index: 1;
     opacity: 1;
 }
 `
-
 export const P = styled.p`
 font-size: 20px;
 line-height: 35px;
