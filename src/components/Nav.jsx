@@ -12,7 +12,7 @@ function Nav() {
         if ((window.scrollY >= 64 && window.scrollY <= 904) || (window.scrollY >= 1038 && window.scrollY <= 1935) || (window.scrollY >= 2150 && window.scrollY <= 3000)) {
             setNavbar(true)
         }
-        else if ((window.scrollY >= 904 && window.scrollY <= 1935) || (window.scrollY >= 1905)) {
+        else if ((window.scrollY >= 904 && window.scrollY <= 1935) || (window.scrollY >= 1905) || (window.scrollY <= 64)) {
             setNavbar(false)
         }
     }
