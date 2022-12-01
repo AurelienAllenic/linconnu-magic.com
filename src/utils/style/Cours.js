@@ -26,7 +26,7 @@ border-radius: 10px 10px 10px 10px;
 `
 export const MainPhraseClass = styled.h2`
     font-size: 25px;
-    padding-top: 50px;
+    padding-top: 15px;
 `
 export const Ul = styled.ul`
 padding-top: 20px;
@@ -41,17 +41,17 @@ font-weight: 600;
 export const SecondTextClass = styled.p`
 font-size: 25px;
 font-weight: 700;
-padding-top: 20px;
+padding-top: 15px;
 `
 export const ThirdTextClass = styled.p`
 font-size: 25px;
 font-weight: 700;
-padding-top: 20px;
+padding-top: 15px;
 `
 export const ContactClass = styled.a`
 text-decoration : none;
 color: black;
-font-weight: 900;
+font-weight: 700;
 &:hover{
     font-weight: 500;
 }
@@ -63,4 +63,9 @@ export const ContainerLogoAndClass = styled.div`
 display: flex;
 gap: 20px;
 justify-content: center;
+`
+export const PostScriptum = styled.p`
+font-size: 18px;
+font-weight: 600;
+font-style: italic;
 `
