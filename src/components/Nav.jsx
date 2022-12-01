@@ -9,10 +9,10 @@ function Nav() {
 
     const changeBAckground = () => {
         console.log(window.scrollY)
-        if (window.scrollY >= 64 && window.scrollY <= 950) {
+        if ((window.scrollY >= 64 && window.scrollY <= 904) || (window.scrollY >= 1038 && window.scrollY <= 1935) || (window.scrollY >= 2150 && window.scrollY <= 3000)) {
             setNavbar(true)
         }
-        else {
+        else if ((window.scrollY >= 904 && window.scrollY <= 1935) || (window.scrollY >= 1905)) {
             setNavbar(false)
         }
     }
