@@ -3,6 +3,8 @@ import { ImageCours, BorderClass, MainPhraseClass, Ul, Li, SecondTextClass, Thir
 import { MainTitle } from "../utils/style/bio"
 import { BsFillSuitSpadeFill } from "react-icons/bs"
 import { GiTwoCoins, GiCube, GiRing } from "react-icons/gi"
+import { SpanArrow2 } from "../utils/style/general"
+import { AiOutlineArrowDown } from "react-icons/ai"
 
 function Cours() {
     return (
@@ -22,6 +24,7 @@ function Cours() {
                         <ThirdTextClass>Les tarifs des cours varient en fonction du temps et coût de déplacement, n'hésitez pas à <ContactClass href="#contact">contacter Linconnu</ContactClass> pour plus d'informations</ThirdTextClass>
                         <PostScriptum>( Veuillez préciser votre nom, prénom, lieu désiré pour la prise du cours, ainsi que vos disponibilités )</PostScriptum>
                     </BorderClass>
+                    <SpanArrow2 a href="#prestation"><AiOutlineArrowDown /></SpanArrow2>
                 </ImageCours>
             </section>
         </>

@@ -11,7 +11,7 @@ color: white;
 font-size: 45px;
 position: absolute;
 left: 46.5%;
-padding-top: 100px;
+padding-top: 70px;
 `
 export const BioCardOne = styled.div`
 position: absolute;

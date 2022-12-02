@@ -3,7 +3,7 @@ import imgCours from "../../assets/cours.jpg"
 
 export const ImageCours = styled.div`
 background: url(${imgCours}) no-repeat center/cover;
-  height: 110vh;
+  height: 100vh;
   width: 100%;
 `;
 
@@ -14,7 +14,7 @@ width: 55%;
 height: 600px;
 position : relative;
 left: 23.5%;
-top: 25%;
+top: 21%;
 padding: 15px;
 font-weight: 500;
 line-height: 35px;
@@ -51,7 +51,7 @@ padding-top: 15px;
 export const ContactClass = styled.a`
 text-decoration : none;
 color: black;
-font-weight: 700;
+font-weight: 900;
 &:hover{
     font-weight: 500;
 }
@@ -68,4 +68,5 @@ export const PostScriptum = styled.p`
 font-size: 18px;
 font-weight: 600;
 font-style: italic;
+padding: 10px;
 `

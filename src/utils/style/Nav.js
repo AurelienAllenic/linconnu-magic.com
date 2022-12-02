@@ -9,7 +9,10 @@ export const NavShape = styled.nav`
     flex-direction: row;
     position: fixed;
     margin-top: -5px;
-    z-index: 0;
+    z-index: 100;
+    &:hover{
+        opacity: 1;
+    }
 `
 export const Logo = styled.a`
     color: black;

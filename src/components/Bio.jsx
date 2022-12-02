@@ -1,5 +1,7 @@
 import React from 'react'
 import { ImageBio, MainTitle, BioCardOne, BioCardTwo, P } from "../utils/style/bio"
+import { AiOutlineArrowDown } from "react-icons/ai"
+import { SpanArrow } from "../utils/style/general"
 
 function Bio() {
     return (
@@ -18,6 +20,7 @@ function Bio() {
                             Venez donc découvrir un univers étrange et qui semble pourtant... si réel.
                         </P>
                     </BioCardTwo>
+                    <SpanArrow a href="#cours"><AiOutlineArrowDown /></SpanArrow>
                 </ImageBio>
             </section>
         </>
