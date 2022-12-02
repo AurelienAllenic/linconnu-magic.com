@@ -3,11 +3,12 @@ import Bio from "./components/Bio";
 import Cours from "./components/Cours";
 import Prestation from "./components/Prestation";
 import Contact from "./components/Contact"
+import "./index.css"
 
 function App() {
   return (
     <div className="App">
-      <Nav/>
+      <Nav/>   
       <Bio/>
       <Cours/>
       <Prestation/>

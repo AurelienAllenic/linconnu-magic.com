@@ -4,6 +4,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -22,9 +26,6 @@ code {
   z-index: 0;
 }
 
-.navbar.active{
-  opacity: 0.3;
-}
 .toast-message {
   font-size: 45px;
   position: absolute;
