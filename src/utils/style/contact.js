@@ -22,13 +22,12 @@ export const Input = styled.input`
 font-size: 25px;
 padding: 10px;
 width: 80%;
-background-color: transparent;
+background-color: #eee;
 border: 0;
 border-radius: 10px 10px 10px 10px;
 text-align: center;
 &:focus{
  outline: none;
- background-color: #eee;
  text-align: left;
  font-size: 20px;
 }
@@ -90,4 +89,11 @@ margin-top: 10px;
 padding : 20px;
 font-weight: 400;
 line-height: 35px;
+`
+export const SpanAlert = styled.span`
+  width: 80%;
+  height: 700px;
+  font-size: 200px;
+  position: absolute;
+  left: -200%;
 `

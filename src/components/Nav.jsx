@@ -9,7 +9,7 @@ function Nav() {
         <>
             <NavShape>
                 <LogoSection>
-                    <Logo>Linconnu</Logo>
+                    <Logo href='#bio'>Linconnu</Logo>
                 </LogoSection>
                 <WebsiteSections>
                     <A href='#bio'>Bio</A>

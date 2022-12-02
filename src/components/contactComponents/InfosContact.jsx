@@ -1,6 +1,6 @@
 import React from 'react'
 import { CardContact, ContentContactCard } from "../../utils/style/contact"
-import { ContentCard, Important } from "../../utils/style/prestation"
+import { Important } from "../../utils/style/prestation"
 import { PostScriptum } from "../../utils/style/Cours"
 function InfosContact() {
     return (

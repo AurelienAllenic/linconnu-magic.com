@@ -1,7 +1,12 @@
 import React from 'react'
-import { Form, Input, Textarea, Button, InputDiv } from "../../utils/style/contact"
+import { Form, Input, Textarea, Button, InputDiv, SpanAlert } from "../../utils/style/contact"
 import { useRef } from 'react'
 import emailjs from 'emailjs-com'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { MainTitle } from "../../utils/style/bio"
+import "../../index.css"
+
 
 function FormContact() {
   const form = useRef();
@@ -11,11 +16,17 @@ function FormContact() {
     emailjs.sendForm('service_ohqoijk', 'template_w9q6vir', form.current, 'dWzWUkYBQ9ERFSUxC')
 
     e.target.reset();
-    alert('message envoyé')
+    toast.success('Message envoyé !', {
+      className: "toast-message"
+    })
 
   };
+
+
   return (
     <>
+      <MainTitle>Contact</MainTitle>
+      <ToastContainer />
       <Form ref={form} onSubmit={sendEmail}>
         <InputDiv>
           <Input id='name' type="text" name='name' placeholder='Nom / Prénom' required />

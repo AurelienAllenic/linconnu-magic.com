@@ -21,6 +21,7 @@ export const Logo = styled.a`
     letter-spacing: 2px;
     font-size: 30px;
     margin: 27px;
+    text-decoration: none;
 `
 
 export const A = styled.a`

@@ -25,3 +25,15 @@ code {
 .navbar.active{
   opacity: 0.3;
 }
+.toast-message {
+  font-size: 45px;
+  position: absolute;
+  margin-top: 315px;
+  left: -353%;
+  transform: rotate(-1.8deg);
+  width: 512px;
+  height: 320px;
+}
+.toast-message:focus{
+  transform: rotate(-1.8deg);
+}
