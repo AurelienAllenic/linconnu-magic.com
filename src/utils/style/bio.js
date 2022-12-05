@@ -9,8 +9,9 @@ background: url(${imgBio}) no-repeat center/cover;
 export const MainTitle = styled.h1`
 color: white;
 font-size: 45px;
-position: absolute;
-left: 46.5%;
+display:flex;
+justify-content: center;
+align-items: center;
 padding-top: 100px;
 @media (max-width: 820px){
   left: 40%;
@@ -34,6 +35,10 @@ z-index: 1;
   width: 30%;
   left: 3%;
 }
+@media (max-width: 768px){
+  height: 600px;
+  top: 24%;
+}
 `
 
 export const BioCardTwo = styled.div`
@@ -53,6 +58,10 @@ z-index: 1;
 @media (max-width: 820px){
   width: 33%;
   right: 3%;
+}
+@media (max-width: 768px){
+  height: 600px;
+  top: 24%;
 }
 `
 export const P = styled.p`

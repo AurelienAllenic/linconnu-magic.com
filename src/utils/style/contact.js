@@ -9,7 +9,7 @@ export const ImageContact = styled.div`
 `;
 export const Form = styled.form`
   position: relative;
-  top: 37%;
+  top: 20%;
   left: 27%;
   display: flex;
   flex-direction: column;
@@ -19,7 +19,11 @@ export const Form = styled.form`
   @media (max-width: 820px){
     width: 50%;
     left: 1.5%;
-    top: 38.5%;
+    top: 25.5%;
+  }
+  @media(max-width: 768px){
+    top: 22.5%;
+    gap: 5px;
   }
 `
 export const Input = styled.input`
@@ -82,6 +86,7 @@ width: 25%;
 height: 400px;
 position : relative;
 left: 60%;
+top: -15%;
 border-radius: 10px 10px 10px 10px;
 &:hover{
   opacity: 1;
@@ -89,7 +94,11 @@ border-radius: 10px 10px 10px 10px;
 @media (max-width: 820px){
   width: 35%;
   height: 500px;
-  top: 5%;
+  top: -8%;
+}
+@media(max-width: 768px){
+  height: 580px;
+  top: -20%;
 }
 `
 export const ContentContactCard = styled.p`

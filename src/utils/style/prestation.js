@@ -27,6 +27,7 @@ opacity: 1;
     width: 80%;
     height: 535px;
     left: 10%;
+    top: 15%;
   }
 `
 export const MainTitleCard = styled.h3`
