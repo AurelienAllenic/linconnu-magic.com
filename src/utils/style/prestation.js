@@ -6,10 +6,16 @@ export const ImagePrestation = styled.div`
 background: url(${imgPrestation}) no-repeat center/cover;
   height: 100vh;
   width: 100%;
+  @media (max-width: 414px){
+    height: 120vh;
+}
+  @media (max-width: 375px){
+    height: 130vh;
+  }
 `;
 export const CardPrestation = styled.div`
 position: relative;
-top: 25%;
+top: 5%;
 left: 26.5%;
 background: #eee;
 opacity: 0.7;
@@ -23,20 +29,54 @@ color: black;
 &:hover{
 opacity: 1;
 }
+@media (max-width: 1420px){
+    height: 530px;
+  }
+  @media (max-width: 1145px){
+    height: 560px;
+  }
+  @media (max-width: 1115px){
+    width: 65%;
+    left: 20%;
+  }
+  @media (max-width: 1036px){
+    width: 85%;
+    left: 10%;
+  }
 @media (max-width: 820px){
     width: 80%;
-    height: 535px;
+    height: 590px;
     left: 10%;
-    top: 15%;
+    top: 5%;
+  }
+  @media (max-width: 507px){
+    line-height: 30px;
+}
+@media (max-width: 438px){
+    line-height: 27px;
+}
+@media (max-width: 396px){
+    width: 95%;
+    left: 2.5%;
   }
 `
 export const MainTitleCard = styled.h3`
 font-size: 25px;
+@media (max-width: 545px){
+    font-size: 18px;
+}
 `
 export const ContentCard = styled.p`
 font-size: 22px;
 font-weight: 500;
 padding: 15px;
+@media (max-width: 717px){
+    font-size: 20px;
+    padding: 10px;
+}
+@media (max-width: 573px){
+    font-size: 17px;
+}
 `
 export const Important = styled.span`
 font-weight: 600;
