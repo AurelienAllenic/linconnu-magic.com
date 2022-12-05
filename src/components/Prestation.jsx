@@ -17,7 +17,7 @@ function Prestation() {
                         <ContentCard>Bar-Mitzvah, Mariage, anniversaire ou toute autre cérémonie, il est possible de <ContactClass a href="#contact">réserver une soirée, une journée</ContactClass>.</ContentCard>
                         <PostScriptum>( Veuillez préciser votre nom, prénom, lieu, date et durée de la prestation, les tarifs varieront en fonction de ces critères )</PostScriptum>
                     </CardPrestation>
-                    <SpanArrow3 a href="#prestation"><AiOutlineArrowDown /></SpanArrow3>
+                    <SpanArrow3 a href="#contact"><AiOutlineArrowDown /></SpanArrow3>
                 </ImagePrestation>
             </section>
         </>

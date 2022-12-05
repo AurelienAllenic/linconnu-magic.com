@@ -11,11 +11,11 @@ export const BorderClass = styled.div`
 background-color: #eee;
 opacity: 0.7;
 width: 55%;
-height: 600px;
+height: 550px;
 position : relative;
 left: 23.5%;
 top: 21%;
-padding: 15px;
+padding-top: 15px;
 font-weight: 500;
 line-height: 35px;
 text-align: center;
@@ -23,6 +23,12 @@ border-radius: 10px 10px 10px 10px;
 &:hover{
     opacity: 1;
 }
+@media (max-width: 820px){
+    width: 85%;
+    height: 600px;
+    left: 7%;
+    padding: 15px;
+  }
 `
 export const MainPhraseClass = styled.h2`
     font-size: 25px;

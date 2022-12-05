@@ -16,7 +16,11 @@ export const Form = styled.form`
   width: 22%;
   transform: rotate(-1.5deg);
   gap : 10px;
-
+  @media (max-width: 820px){
+    width: 50%;
+    left: 1.5%;
+    top: 38.5%;
+  }
 `
 export const Input = styled.input`
 font-size: 25px;
@@ -82,6 +86,11 @@ border-radius: 10px 10px 10px 10px;
 &:hover{
   opacity: 1;
 }
+@media (max-width: 820px){
+  width: 35%;
+  height: 500px;
+  top: 5%;
+}
 `
 export const ContentContactCard = styled.p`
 font-size: 25px;
@@ -89,11 +98,4 @@ margin-top: 10px;
 padding : 20px;
 font-weight: 400;
 line-height: 35px;
-`
-export const SpanAlert = styled.span`
-  width: 80%;
-  height: 700px;
-  font-size: 200px;
-  position: absolute;
-  left: -200%;
 `

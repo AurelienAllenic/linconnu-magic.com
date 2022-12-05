@@ -22,6 +22,9 @@ export const Logo = styled.a`
     font-size: 30px;
     margin: 27px;
     text-decoration: none;
+    @media (max-width: 820px){
+        
+    }
 `
 
 export const A = styled.a`
@@ -35,6 +38,12 @@ export const A = styled.a`
     &:hover{
         opacity: 0.5;
         cursor: pointer;
+    }
+    @media (max-width: 820px){
+        margin: 20px;
+        left: -40%;
+        font-size: 25px;
+        top: 26%;
     }
 `
 export const ASocials = styled.a`

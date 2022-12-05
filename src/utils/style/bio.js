@@ -12,6 +12,9 @@ font-size: 45px;
 position: absolute;
 left: 46.5%;
 padding-top: 100px;
+@media (max-width: 820px){
+  left: 40%;
+}
 `
 export const BioCardOne = styled.div`
 position: absolute;
@@ -26,6 +29,10 @@ border-radius: 10px 10px 10px 10px;
 z-index: 1;
 &:hover{
     opacity: 1;
+}
+@media (max-width: 820px){
+  width: 30%;
+  left: 3%;
 }
 `
 
@@ -43,9 +50,16 @@ z-index: 1;
 &:hover{
     opacity: 1;
 }
+@media (max-width: 820px){
+  width: 33%;
+  right: 3%;
+}
 `
 export const P = styled.p`
 font-size: 20px;
 line-height: 35px;
 font-weight: 500;
+@media (max-width: 820px){
+  line-height: 26px;
+}
 `

@@ -14,8 +14,8 @@ left: 26.5%;
 background: #eee;
 opacity: 0.7;
 width: 50%;
-height: 550px;
-padding: 15px;
+height: 500px;
+padding-top: 25px;
 text-align: center;
 line-height: 35px;
 border-radius: 10px 10px 10px 10px;
@@ -23,6 +23,11 @@ color: black;
 &:hover{
 opacity: 1;
 }
+@media (max-width: 820px){
+    width: 80%;
+    height: 535px;
+    left: 10%;
+  }
 `
 export const MainTitleCard = styled.h3`
 font-size: 25px;

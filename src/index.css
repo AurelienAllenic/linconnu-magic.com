@@ -38,3 +38,11 @@ code {
 .toast-message:focus{
   transform: rotate(-1.8deg);
 }
+@media screen and (max-width: 820px){
+  .toast-message{
+    left: -179%;
+    margin-top: 415px;
+    height: 331px;
+    text-align: center;
+  }
+}
