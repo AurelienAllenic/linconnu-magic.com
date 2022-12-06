@@ -36,18 +36,9 @@ line-height: 35px;
 border-radius: 10px 10px 10px 10px;
 color: black;
 animation: fall 3s forwards;
-@keyframes fall {
-  0% {
-    background: transparent;
-  }
-  100% {
-    background: #eee;
-  }
-}
 &:hover{
 opacity: 1;
 }
-
 @media (max-width: 1420px){
     height: 530px;
   }

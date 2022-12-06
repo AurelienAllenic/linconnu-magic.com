@@ -31,14 +31,7 @@ export const Form = styled.form`
   width: 22%;
   transform: rotate(-1.5deg);
   gap : 10px;
-  animation: fall 3s forwards;
-@keyframes fall {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+  animation: fade 3s forwards;
 }
   @media (max-width: 1630px){
   gap: 5px;
@@ -68,10 +61,10 @@ export const Form = styled.form`
   width: 42%;
   left: 9%;
 }
-  @media (max-width: 820px){
+  @media (max-width: 820px) and (max-height: 882px) {
     width: 46%;
-    left: 3%;
-    top: 28%;
+    left: 5%;
+    top: 19.5%;
   }
   @media (max-width: 1024px) and (max-height: 768px){
     top: 20.5%;
@@ -81,8 +74,13 @@ export const Form = styled.form`
     left: 3%;
     top: 28%;
   }
-  @media (max-width: 768px){
+  @media (max-width: 768px) and (max-height: 1024px) {
     top: 23%;
+    width: 50%;
+    left: 1%;
+  }
+  @media (max-width: 768px) and (max-height: 882px) {
+    top: 19.5%;
     width: 50%;
     left: 1%;
   }
@@ -91,11 +89,17 @@ export const Form = styled.form`
     left: 1.5%;
   }  
 
-  @media (max-width: 414px) {
+  @media (max-width: 414px) and (max-height: 736px) {
     top: 17%;
   }
-  @media (max-width: 375px){
+  @media (max-width: 414px) and (max-height: 882px) {
     top: 22%;
+  }
+  @media (max-width: 375px) and (max-height: 667px){
+    top: 22%;
+  }
+  @media (max-width: 375px) and (max-height: 882px) {
+    top: 28%;
   }
 `
 export const Input = styled.input`
@@ -203,14 +207,6 @@ left: 60%;
 top: -15%;
 border-radius: 10px 10px 10px 10px;
 animation: fall 3s forwards;
-@keyframes fall {
-  0% {
-    background: transparent;
-  }
-  100% {
-    background: #eee;
-  }
-}
 &:hover{
   opacity: 1;
 }
@@ -243,18 +239,20 @@ animation: fall 3s forwards;
   height: 500px;
   width: 38%;
 }
-@media (max-width: 407px){
-  top: 22%;
+@media (max-width: 407px) and (max-height: 882px) {
+  top: 28%;
   width: 80%;
   left: 18%;
   height: 260px;
 }
-@media (max-width: 382px){
+@media (max-width: 382px) and (max-height: 882px) {
   height: 280px;
-  top: 21%;
 }
-@media (max-width: 375px){
+@media (max-width: 375px) and (max-height: 667px) {
   top: 29%;
+}
+@media (max-width: 375px) and (max-height: 882px) {
+  top: 35%;
 }
 `
 export const ContentContactCard = styled.p`

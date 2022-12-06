@@ -133,14 +133,6 @@ height: 550px;
 border-radius: 10px 10px 10px 10px;
 z-index: 1;
 animation: fall 3s forwards;
-@keyframes fall {
-  0% {
-    background: transparent;
-  }
-  100% {
-    background: #eee;
-  }
-}
 &:hover{
     opacity: 1;
 }

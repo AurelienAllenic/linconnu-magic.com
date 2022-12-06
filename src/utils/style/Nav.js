@@ -89,6 +89,20 @@ export const A = styled.a`
         left: -5%;
         margin: 15px;
     }
+    @media (max-width: 531px){
+        margin: 5px;
+        left: 5%;
+    }
+    @media (max-width: 498px){
+        font-size: 20px;
+    }
+    @media (max-width: 468px){
+        left: 0%;
+        font-size: 18px;
+    }
+    @media (max-width: 424px){
+        left: -5%;
+    }
     @media (max-width: 414px){
         top: 62%;
         left: -38%;
@@ -201,10 +215,21 @@ export const Socials = styled.div`
         position: relative;
         left: -124%;
     }
-    @media (max-width: 652px){
+    @media (max-width: 692px){
         margin-left: -600px;
     }
-
+    @media (max-width: 652px){
+        margin-left: -560px;
+    }
+    @media (max-width: 531px){
+        margin-left: -470px;
+    }
+    @media (max-width: 498px){
+        margin-left: -450px;
+    }
+    @media (max-width: 468px){
+        margin-left: -420px;
+    }
     @media (max-width: 414px){
         margin-left: -295px;
         top: -20%;
