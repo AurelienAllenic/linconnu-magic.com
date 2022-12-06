@@ -99,7 +99,7 @@ export const Form = styled.form`
     top: 22%;
   }
   @media (max-width: 375px) and (max-height: 882px) {
-    top: 28%;
+    top: 25%;
   }
 `
 export const Input = styled.input`
@@ -252,7 +252,7 @@ animation: fall 3s forwards;
   top: 29%;
 }
 @media (max-width: 375px) and (max-height: 882px) {
-  top: 35%;
+  top: 33%;
 }
 `
 export const ContentContactCard = styled.p`

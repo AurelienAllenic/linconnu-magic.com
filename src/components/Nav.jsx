@@ -18,9 +18,9 @@ function Nav() {
                     <A href='#contact'>Contact</A>
                 </WebsiteSections>
                 <Socials>
-                    <ASocials><AiOutlineInstagram /></ASocials>
-                    <ASocials><AiOutlineYoutube /></ASocials>
-                    <ASocials><TbBrandTiktok /></ASocials>
+                    <ASocials href='https://www.instagram.com/aurelienlinconnu/?hl=fr' target="_blank"><AiOutlineInstagram /></ASocials>
+                    <ASocials href='https://www.youtube.com/@linconnu2816' target="_blank"><AiOutlineYoutube /></ASocials>
+                    <ASocials href='https://www.tiktok.com/@aurelienlinconnu?_t=8XxL6NAGKhC&_r=1' target="_blank"><TbBrandTiktok /></ASocials>
                 </Socials>
             </NavShape>
         </>
