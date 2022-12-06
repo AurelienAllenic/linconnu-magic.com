@@ -13,6 +13,9 @@ export const NavShape = styled.nav`
     &:hover{
         opacity: 1;
     }
+    @media (max-width: 820px) and (max-height: 375px){
+        height: 60px;
+    }
 `
 export const Logo = styled.a`
     color: black;
@@ -42,6 +45,10 @@ export const Logo = styled.a`
         top: 10%;
         margin: 15px;
       }
+      @media (max-width: 820px) and (min-height: 375px){
+        font-size: 18px;
+        top: 15%;
+    }
 `
 
 export const A = styled.a`
@@ -132,6 +139,9 @@ export const ASocials = styled.a`
     @media (max-width: 375px){
         font-size: 20px;
       }
+      @media (max-width: 667px) and (max-height: 375px){
+        font-size: 22px;
+    }
 `
 export const LogoSection = styled.div`
 
@@ -207,4 +217,9 @@ export const Socials = styled.div`
         right: 20%;
         top: -25%;
       }
+      @media (max-width: 667px) and (max-height: 375px){
+        margin-left: -603px;
+        position: relative;
+        top: -5%;
+    }
 `

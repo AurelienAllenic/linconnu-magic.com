@@ -20,6 +20,10 @@ export const SpanArrow = styled.a`
         bottom: -40%;
         left: 41.5%;
       }
+      @media (max-width: 667px) and (max-height: 375px){
+        position: relative;
+        bottom: -75%;
+      }
 `
 export const SpanArrow2 = styled.a`
     position: absolute;
@@ -34,13 +38,17 @@ export const SpanArrow2 = styled.a`
         font-size: 70px;
     }
     @media (max-width: 414px){
-        bottom: -142%;
+        position: relative;
+        bottom: -5%;
         left: 42.5%;
     }
     @media (max-width: 375px){
-        bottom: -175%;
         left: 43%;
       }
+      @media (max-width: 667px) and (max-height: 375px){
+        position: relative;
+        bottom: -5%;
+    }
 `
 
 export const SpanArrow3 = styled.a`
@@ -56,12 +64,13 @@ export const SpanArrow3 = styled.a`
         font-size: 70px;
     }
     @media (max-width: 414px){
-        bottom: -260%;
+        position: relative;
+        bottom: -10%;
         left: 43%;
     }
-    @media (max-width: 375px){
-        bottom: -305%;
-        left: 41.5%;
-      }
+    @media (max-width: 667px) and (max-height: 375px){
+        position: relative;
+        bottom: -10%;
+    }
 
 `

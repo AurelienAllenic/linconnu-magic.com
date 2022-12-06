@@ -6,11 +6,14 @@ background: url(${imgCours}) no-repeat center/cover;
   height: 100vh;
   width: 100%;
   @media (max-width: 414px){
-    height: 120vh;
+    height: 130vh;
   }
   @media (max-width: 375px){
-    height: 135vh;
+    height: 145vh;
   }
+  @media (max-width: 667px) and (max-height: 375px){
+    height: 270vh;
+}
 `;
 
 export const BorderClass = styled.div`
@@ -61,6 +64,9 @@ border-radius: 10px 10px 10px 10px;
 @media (max-width: 386px){
     line-height: 25px;
   }
+  @media (max-width: 375px){
+    left: 4%;
+}
   `
 export const MainPhraseClass = styled.h2`
     font-size: 25px;

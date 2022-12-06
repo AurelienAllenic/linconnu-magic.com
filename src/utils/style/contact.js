@@ -12,6 +12,9 @@ export const ImageContact = styled.div`
   @media (max-width: 375px){
     height: 150vh;
   }
+  @media (max-width: 667px) and (max-height: 375px){
+    height: 270vh;
+  }
 `;
 export const Form = styled.form`
   position: relative;
@@ -74,7 +77,7 @@ export const Form = styled.form`
     top: 17%;
   }
   @media (max-width: 375px){
-    top: 26%;
+    top: 22%;
   }
 `
 export const Input = styled.input`
@@ -101,6 +104,9 @@ text-align: center;
 }
 @media (max-width: 407px){
   font-size: 12px;
+}
+@media (max-width: 375px){
+    font-size: 10.5px;
 }
 `
 
@@ -130,6 +136,9 @@ border-radius: 10px 10px 10px 10px;
 }
 @media (max-width: 414px){
     height: 90px;
+}
+@media (max-width: 375px){
+    height: 150px;
 }
 `
 
@@ -215,7 +224,7 @@ border-radius: 10px 10px 10px 10px;
   top: 21%;
 }
 @media (max-width: 375px){
-  top: 35%;
+  top: 29%;
 }
 `
 export const ContentContactCard = styled.p`

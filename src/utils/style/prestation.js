@@ -7,11 +7,14 @@ background: url(${imgPrestation}) no-repeat center/cover;
   height: 100vh;
   width: 100%;
   @media (max-width: 414px){
-    height: 120vh;
+    height: 130vh;
 }
   @media (max-width: 375px){
-    height: 130vh;
+    height: 145vh;
   }
+  @media (max-width: 667px) and (max-height: 375px){
+    height: 270vh;
+}
 `;
 export const CardPrestation = styled.div`
 position: relative;
