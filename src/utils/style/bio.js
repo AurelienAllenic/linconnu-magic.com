@@ -8,6 +8,9 @@ background: url(${imgBio}) no-repeat center/cover;
   @media (max-width: 414px){
     height: 120vh;
   }
+  @media (max-width: 736px) and (max-height: 414px){
+    height: 220vh;
+  }
   @media (max-width: 375px){
     height: 140vh;
   }
@@ -77,6 +80,9 @@ z-index: 1;
   height: 280px;
   left: 1.5%;
 }
+@media (max-width: 736px) and (max-height: 414px){
+  top: 40%;
+}
 @media (max-width: 405px){
   height: 300px;
   top: 17%;
@@ -143,6 +149,9 @@ z-index: 1;
 @media (max-width: 414px){
   top: 65%;
   left: 1.5%;
+}
+@media (max-width: 736px) and (max-height: 414px){
+  top: 40%;
 }
 @media (max-width: 405px){
   height: 300px;

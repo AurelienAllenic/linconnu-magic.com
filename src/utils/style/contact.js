@@ -9,6 +9,9 @@ export const ImageContact = styled.div`
   @media (max-width: 414px){
     height: 105vh;
   }
+  @media (max-width: 736px) and (max-height: 414px){
+    height: 230vh;
+  }
   @media (max-width: 375px){
     height: 150vh;
   }

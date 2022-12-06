@@ -207,10 +207,14 @@ export const Socials = styled.div`
     @media (max-width: 652px){
         margin-left: -600px;
     }
+
     @media (max-width: 414px){
         margin-left: -295px;
         top: -20%;
         left: 0%;
+    }
+    @media (max-width: 736px) and (max-height: 414px){
+        margin-left: -655px;
     }
     @media (max-width: 375px){
         margin-left: -280px;

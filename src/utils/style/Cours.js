@@ -8,6 +8,9 @@ background: url(${imgCours}) no-repeat center/cover;
   @media (max-width: 414px){
     height: 130vh;
   }
+  @media (max-width: 736px) and (max-height: 414px){
+    height: 230vh;
+  }
   @media (max-width: 375px){
     height: 145vh;
   }
