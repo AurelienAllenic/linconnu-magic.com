@@ -5,6 +5,9 @@ export const ImageCours = styled.div`
 background: url(${imgCours}) no-repeat center/cover;
   height: 100vh;
   width: 100%;
+  @media (max-width: 1180px) and (max-height: 820px){
+    height: 110vh;
+    }
   @media (max-width: 1024px) and (max-height: 768px){
     height: 120vh;
     }

@@ -143,6 +143,9 @@ border-radius: 10px 10px 10px 10px;
 @media (max-width: 529px){
   font-size: 15px;
 }
+@media (max-width: 1180px) and (max-height: 820px){
+  height: 90px;
+  }
 @media (max-width: 414px){
     height: 90px;
 }
