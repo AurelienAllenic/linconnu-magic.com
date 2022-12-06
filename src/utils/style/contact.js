@@ -31,6 +31,15 @@ export const Form = styled.form`
   width: 22%;
   transform: rotate(-1.5deg);
   gap : 10px;
+  animation: fall 3s forwards;
+@keyframes fall {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
   @media (max-width: 1630px){
   gap: 5px;
   top: 18.5%;
@@ -193,6 +202,15 @@ position : relative;
 left: 60%;
 top: -15%;
 border-radius: 10px 10px 10px 10px;
+animation: fall 3s forwards;
+@keyframes fall {
+  0% {
+    background: transparent;
+  }
+  100% {
+    background: #eee;
+  }
+}
 &:hover{
   opacity: 1;
 }

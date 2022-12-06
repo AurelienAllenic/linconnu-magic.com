@@ -38,6 +38,15 @@ font-weight: 500;
 line-height: 35px;
 text-align: center;
 border-radius: 10px 10px 10px 10px;
+animation: fall 3s forwards;
+@keyframes fall {
+  0% {
+    background: transparent;
+  }
+  100% {
+    background: #eee;
+  }
+}
 &:hover{
     opacity: 1;
 }

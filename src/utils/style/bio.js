@@ -28,6 +28,15 @@ display:flex;
 justify-content: center;
 align-items: center;
 padding-top: 100px;
+animation: fade 1s forwards;
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 @media (max-width: 820px){
   left: 40%;
 }
@@ -43,6 +52,15 @@ width: 20%;
 height: 550px;
 border-radius: 10px 10px 10px 10px;
 z-index: 1;
+animation: fall 3s forwards;
+@keyframes fall {
+  0% {
+    background: transparent;
+  }
+  100% {
+    background: #eee;
+  }
+}
 &:hover{
     opacity: 1;
 }
@@ -114,6 +132,15 @@ width: 20%;
 height: 550px;
 border-radius: 10px 10px 10px 10px;
 z-index: 1;
+animation: fall 3s forwards;
+@keyframes fall {
+  0% {
+    background: transparent;
+  }
+  100% {
+    background: #eee;
+  }
+}
 &:hover{
     opacity: 1;
 }
