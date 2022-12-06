@@ -6,6 +6,9 @@ export const ImageContact = styled.div`
   background: url(${imgContact}) no-repeat center/cover;
   height: 100vh;
   width: 100%;
+  @media (max-width: 1024px) and (max-height: 768px){
+    height: 120vh;
+    }
   @media (max-width: 414px){
     height: 105vh;
   }
@@ -61,6 +64,9 @@ export const Form = styled.form`
     left: 3%;
     top: 28%;
   }
+  @media (max-width: 1024px) and (max-height: 768px){
+    top: 20.5%;
+    }
   @media (max-width: 820px) && (max-width: 1180px) {
     width: 46%;
     left: 3%;

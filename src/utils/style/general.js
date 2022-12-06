@@ -12,6 +12,9 @@ export const SpanArrow = styled.a`
     @media (max-width: 1630px){
         font-size: 70px;
     }
+    @media (max-width: 1024px) and (max-height: 768px){
+        bottom: -15%;
+        }
     @media (max-width: 414px){
         bottom: -20%;
         left: 40%;
@@ -40,6 +43,10 @@ export const SpanArrow2 = styled.a`
     @media (max-width: 1630px){
         font-size: 70px;
     }
+    @media (max-width: 1024px) and (max-height: 768px){
+        position: relative;
+        bottom: -5%;
+        }
     @media (max-width: 414px){
         position: relative;
         bottom: -5%;
@@ -70,6 +77,10 @@ export const SpanArrow3 = styled.a`
     @media (max-width: 1630px){
         font-size: 70px;
     }
+    @media (max-width: 1024px) and (max-height: 768px){
+        position: relative;
+        bottom: -10%;
+        }
     @media (max-width: 414px){
         position: relative;
         bottom: -10%;

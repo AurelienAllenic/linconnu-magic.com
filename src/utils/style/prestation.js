@@ -6,6 +6,9 @@ export const ImagePrestation = styled.div`
 background: url(${imgPrestation}) no-repeat center/cover;
   height: 100vh;
   width: 100%;
+  @media (max-width: 1024px) and (max-height: 768px){
+    height: 120vh;
+    }
   @media (max-width: 414px){
     height: 130vh;
 }

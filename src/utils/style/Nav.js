@@ -13,9 +13,6 @@ export const NavShape = styled.nav`
     &:hover{
         opacity: 1;
     }
-    @media (max-width: 820px) and (max-height: 375px){
-        height: 60px;
-    }
 `
 export const Logo = styled.a`
     color: black;
@@ -191,7 +188,7 @@ export const Socials = styled.div`
         margin-left: 0px;
     }
     @media (max-width: 820px){
-        margin-left: -680px;
+        margin-left: -650px;
         display: flex;
     }
     @media (max-width: 768px && max-height: 1024){
