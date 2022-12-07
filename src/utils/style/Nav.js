@@ -173,7 +173,7 @@ margin-left: 240px;
 }
 `
 export const Socials = styled.div`
-    margin-left: 260px;
+    margin-left: 250px;
     @media (max-width: 1866px){
         margin-left: 180px;
     }

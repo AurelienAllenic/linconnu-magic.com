@@ -23,6 +23,9 @@ background: url(${imgCours}) no-repeat center/cover;
   @media (max-width: 667px) and (max-height: 375px){
     height: 270vh;
 }
+@media (max-width: 320px) and (max-height: 568px){
+  height: 160vh;
+}
 `;
 
 export const BorderClass = styled.div`

@@ -21,6 +21,9 @@ export const ImageContact = styled.div`
   @media (max-width: 667px) and (max-height: 375px){
     height: 270vh;
   }
+  @media (max-width: 320px) and (max-height: 568px){
+    height: 200vh;
+  }
 `;
 export const Form = styled.form`
   position: relative;
@@ -253,6 +256,9 @@ animation: fall 3s forwards;
 }
 @media (max-width: 375px) and (max-height: 882px) {
   top: 33%;
+}
+@media (max-width: 320px) and (max-height: 568px){
+  height: 300px;
 }
 `
 export const ContentContactCard = styled.p`

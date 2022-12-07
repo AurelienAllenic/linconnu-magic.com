@@ -20,6 +20,9 @@ background: url(${imgBio}) no-repeat center/cover;
   @media (max-width: 667px) and (max-height: 375px){
     height: 250vh;
   }
+  @media (max-width: 320px) and (max-height: 568px){
+    height: 160vh;
+  }
 `;
 export const MainTitle = styled.h1`
 color: white;
@@ -119,6 +122,9 @@ animation: fall 3s forwards;
   height: 250px;
   top: 50%;
 }
+@media (max-width: 320px) and (max-height: 568px){
+  top: 35%;
+}
 `
 
 export const BioCardTwo = styled.div`
@@ -188,6 +194,9 @@ animation: fall 3s forwards;
   width: 90%;
   top: 130%;
   height: 270px;
+}
+@media (max-width: 320px) and (max-height: 568px){
+  top: 100%;
 }
 `
 export const P = styled.p`
