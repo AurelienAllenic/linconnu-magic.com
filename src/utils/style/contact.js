@@ -104,6 +104,9 @@ export const Form = styled.form`
   @media (max-width: 375px) and (max-height: 882px) {
     top: 25%;
   }
+  @media (max-width: 360px) and (max-height: 640px){
+    top: 20.5%;
+  }
 `
 export const Input = styled.input`
 font-size: 25px;
@@ -256,6 +259,9 @@ animation: fall 3s forwards;
 }
 @media (max-width: 375px) and (max-height: 882px) {
   top: 33%;
+}
+@media (max-width: 360px) and (max-height: 640px){
+  top: 25%;
 }
 @media (max-width: 320px) and (max-height: 568px){
   height: 300px;

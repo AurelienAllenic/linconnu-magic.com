@@ -122,6 +122,9 @@ animation: fall 3s forwards;
   height: 250px;
   top: 50%;
 }
+@media (max-width: 360px) and (max-height: 640px){
+  top: 25%;
+}
 @media (max-width: 320px) and (max-height: 568px){
   top: 35%;
 }
@@ -194,6 +197,9 @@ animation: fall 3s forwards;
   width: 90%;
   top: 130%;
   height: 270px;
+}
+@media (max-width: 360px) and (max-height: 640px){
+  top: 80%;
 }
 @media (max-width: 320px) and (max-height: 568px){
   top: 100%;
