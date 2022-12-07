@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-scroll"
 import { ImageBio, MainTitle, BioCardOne, BioCardTwo, P } from "../utils/style/bio"
 import { AiOutlineArrowDown } from "react-icons/ai"
 import { SpanArrow } from "../utils/style/general"
@@ -20,7 +21,7 @@ function Bio() {
                             Venez donc découvrir un univers étrange et qui semble pourtant... si réel.
                         </P>
                     </BioCardTwo>
-                    <SpanArrow a href="#cours"><AiOutlineArrowDown /></SpanArrow>
+                    <SpanArrow><Link to='cours' spy={true} smooth={true} offset={0} duration={500}><AiOutlineArrowDown /></Link></SpanArrow>
                 </ImageBio>
             </section>
         </>

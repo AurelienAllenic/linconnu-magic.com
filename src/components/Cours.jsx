@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-scroll"
 import { ImageCours, BorderClass, MainPhraseClass, Ul, Li, SecondTextClass, ThirdTextClass, ContactClass, IconClass, ContainerLogoAndClass, PostScriptum } from "../utils/style/Cours"
 import { MainTitle } from "../utils/style/bio"
 import { BsFillSuitSpadeFill } from "react-icons/bs"
@@ -10,7 +11,7 @@ function Cours() {
     return (
         <>
             <section id="cours">
-                <ImageCours >
+                <ImageCours id='cours'>
                     <MainTitle>Cours</MainTitle>
                     <BorderClass>
                         <MainPhraseClass>Linconnu vous propose des cours pouvant porter sur différents objets :</MainPhraseClass>
@@ -24,7 +25,7 @@ function Cours() {
                         <ThirdTextClass>Les tarifs des cours varient en fonction du temps et coût de déplacement, n'hésitez pas à <ContactClass href="#contact">contacter Linconnu</ContactClass> pour plus d'informations</ThirdTextClass>
                         <PostScriptum>( Veuillez préciser votre nom, prénom, lieu désiré pour la prise du cours, ainsi que vos disponibilités )</PostScriptum>
                     </BorderClass>
-                    <SpanArrow2 a href="#prestation"><AiOutlineArrowDown /></SpanArrow2>
+                    <SpanArrow2><Link to='prestation' spy={true} smooth={true} offset={0} duration={500}><AiOutlineArrowDown /></Link></SpanArrow2>
                 </ImageCours>
             </section>
         </>
