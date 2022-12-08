@@ -10,7 +10,7 @@ function Nav() {
         <>
             <NavShape>
                 <LogoSection>
-                    <Logo href='#bio'>Linconnu</Logo>
+                    <Logo><Link to='bio' spy={true} smooth={true} offset={0} duration={500}>Linconnu</Link></Logo>
                 </LogoSection>
                 <WebsiteSections>
                     <A><Link to='bio' spy={true} smooth={true} offset={0} duration={500}>Bio</Link></A>

@@ -22,6 +22,7 @@ export const Logo = styled.a`
     font-size: 30px;
     margin: 27px;
     text-decoration: none;
+    cursor: pointer;
     @media (max-width: 820px){
         top: 6%;
     }
@@ -144,8 +145,16 @@ export const ASocials = styled.a`
     }
     @media (max-width: 414px){
         font-size: 20px;
-        margin: 10px;
+        margin: 0px;
+        padding-left: 10px;
+        padding-top: 10px;
         top: 2%;
+    }
+    @media (max-width: 393px) and (max-height: 851px){
+        top: 20%;
+    }
+    @media (max-width: 390px) and (max-height: 844px){
+        padding-top: 2px;
     }
     @media (max-width: 375px){
         font-size: 20px;
@@ -205,12 +214,12 @@ export const Socials = styled.div`
         margin-left: -650px;
         display: flex;
     }
-    @media (max-width: 768px && max-height: 1024){
+    @media (max-width: 768px) and (max-height: 1024px){
         margin-left: 0px;
         position: relative;
         left: -124%;
     }
-    @media (max-width: 768px && min-height: 1024){
+    @media (max-width: 768px) and (min-height: 1024){
         margin-left: -250px;
         position: relative;
         left: -124%;
@@ -231,17 +240,27 @@ export const Socials = styled.div`
         margin-left: -420px;
     }
     @media (max-width: 414px){
-        margin-left: -295px;
-        top: -20%;
+        margin-left: -140px;
+        top: 0%;
         left: 0%;
     }
     @media (max-width: 736px) and (max-height: 414px){
         margin-left: -655px;
     }
+    @media (max-width: 412px) and (max-height: 915px){
+        top: 0%;
+    }
+    @media (max-width: 393px) and (max-height: 851px){
+        margin-left: -150px;
+    }
+    @media (max-width: 390px) and (max-height: 844px){
+        margin-left: -110px;
+        display: flex;
+        flex-direction: column;
+    }
     @media (max-width: 375px){
-        margin-left: -280px;
-        right: 20%;
-        top: -25%;
+        margin-left: -70px;
+        top: -15%;
       }
       @media (max-width: 667px) and (max-height: 375px){
         margin-left: -603px;

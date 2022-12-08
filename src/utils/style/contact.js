@@ -91,10 +91,6 @@ export const Form = styled.form`
     width: 50%;
     left: 1.5%;
   }  
-
-  @media (max-width: 414px) and (max-height: 736px) {
-    top: 17%;
-  }
   @media (max-width: 414px) and (max-height: 882px) {
     top: 22%;
   }
