@@ -32,7 +32,7 @@ export const BorderClass = styled.div`
 background-color: #eee;
 opacity: 0.7;
 width: 55%;
-height: 550px;
+height: auto;
 position : relative;
 left: 23.5%;
 top: 6%;
@@ -47,11 +47,7 @@ animation: fall 3s forwards;
 }
 @media (max-width: 1630px){
     top: 2%;
-    height: 570px;
 }
-@media (max-width: 1341px){
-    height: 610px;
-  }
   @media (max-width: 1115px){
     width: 65%;
     left: 20%;
@@ -62,7 +58,6 @@ animation: fall 3s forwards;
   }
 @media (max-width: 820px){
     width: 85%;
-    height: 660px;
     left: 7%;
     top: 1%;
     padding: 15px;

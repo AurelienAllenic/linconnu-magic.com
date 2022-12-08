@@ -20,8 +20,26 @@ background: url(${imgBio}) no-repeat center/cover;
   @media (max-width: 667px) and (max-height: 375px){
     height: 250vh;
   }
+  @media(max-width: 490px) and (max-height: 882px){
+    height: 120vh;;
+  }
+  @media(max-width: 414px) and (max-height: 736px){
+    height: 140vh;
+  }
+  @media(max-width: 375px) and (max-height: 667px){
+    height: 160vh;
+  }
+  @media(max-width: 330px) and (max-height: 882px){
+    height: 130vh;
+  }
   @media (max-width: 320px) and (max-height: 568px){
     height: 160vh;
+  }
+  @media(max-width: 314px) and (max-height: 882px){
+    height: 140vh;
+  }
+  @media(max-width: 265px) and (max-height: 882px){
+    height : 160vh;
   }
 `;
 export const MainTitle = styled.h1`
@@ -44,15 +62,142 @@ animation: fade 1s forwards;
   left: 40%;
 }
 `
+export const AlignCardsInCenter = styled.div`
+display: flex;
+align-items: center;
+justify-content: center:
+width: 100%;
+height: 80vh;
+`
+export const DivCards = styled.div`
+display: grid;
+grid-template-columns: 350px 350px;
+grid-template-rows: auto;
+box-sizing: border-box;
+width: 100%;
+gap: 750px;
+padding-left: 10%;
+@media(max-width: 1750px) and (max-height: 1000px){
+  gap: 650px;
+}
+@media(max-width: 1629px) and (min-height: 882px){
+  gap : 500px;
+}
+@media(max-width: 1629px) and (max-height: 882px){
+  gap : 550px;
+}
+@media(max-width: 1583px) and (max-height: 1000px){
+  gap: 550px;
+}
+@media(max-width: 1445px) and (max-height: 1000px){
+  gap: 450px;
+}
+@media(max-width: 1338px) and (min-height: 1000px){
+  gap : 350px;
+}
+@media(max-width: 1329px) and (max-height: 1000px){
+  gap: 350px;
+}
+@media(max-width: 1253px) and (max-height: 1000px){
+  gap: 265px;
+}
+@media(max-width: 1214px) and (max-height: 1000px){
+  padding-left: 5%;
+  gap: 350px;
+}
+@media(max-width: 1178px) and (min-height: 1000px){
+  gap : 200px;
+}
+@media(max-width: 1112px) and (max-height: 1000px){
+  gap: 270px;
+}
+@media(max-width: 1025px) and (max-height: 1000px){
+  gap: 200px;
+}
+@media(max-width: 1750px) and (max-height: 1000px){
+  gap: 650px;
+}
+
+@media(max-width: 1537px) and (max-height: 882px){
+  gap : 500px;
+}
+@media(max-width: 1479px) and (max-height: 882px){
+  gap : 450px;
+}
+@media(max-width: 1417px) and (max-height: 882px){
+  gap : 400px;
+}
+@media(max-width: 1351px) and (max-height: 882px){
+  gap : 350px;
+}
+@media(max-width: 1289px) and (max-height: 882px){
+  gap : 300px;
+}
+@media(max-width: 1227px) and (max-height: 882px){
+  gap : 250px;
+}
+@media(max-width: 1163px) and (max-height: 882px){
+  gap : 280px;
+  padding-left: 6%;
+}
+@media(max-width: 1149px) and (max-height: 882px){
+  grid-template-rows: none;
+  grid-template-columns: repeat(1, 1fr);
+  width: 80%;
+  padding-top: 0%;
+  padding-left: 10%;
+  gap: 30px;
+}
+@media(max-width: 1149px) and (max-height: 882px){
+  gap: 10px;
+  padding-top: 5%;
+}
+@media(max-width: 820px) and (max-height: 1180px){
+  gap: 30px;
+  padding-left: 5%;
+}
+@media(max-width: 768px) and (max-height: 1024px){
+  padding-left: 2%;
+}
+@media(max-width: 490px) and (max-height: 882px){
+  padding-top: 30%;
+}
+@media(max-width: 419px) and (max-height: 882px){
+  padding-top: 35%;
+}
+@media(max-width: 414px) and (max-height: 736px){
+  padding-left: 12%;
+  padding-top: 70%;
+}
+@media(max-width: 375px) and (max-height: 667px){
+  padding-top: 90%;
+}
+@media(max-width: 356px) and (max-height: 882px){
+  padding-top: 45%;
+}
+@media(max-width: 344px) and (max-height: 882px){
+  padding-top: 55%;
+}
+@media(max-width: 330px) and (max-height: 882px){
+  padding-top: 80%;
+}
+@media(max-width: 314px) and (max-height: 882px){
+  padding-top: 100%;
+}
+@media(max-width: 265px) and (max-height: 882px){
+  padding-top: 200%;
+  padding-left: 10%;
+  width: 90%;
+}
+`
 export const BioCardOne = styled.div`
-position: absolute;
-top: 26.5%;
-left: 10%;
+box-sizing: border-box;
 padding: 15px;
+padding-bottom: 20px;
 background-color: #eee;
 opacity: 0.7;
-width: 20%;
-height: 550px;
+width: 100%;
+height: auto;
 border-radius: 10px 10px 10px 10px;
 z-index: 1;
 animation: fall 3s forwards;
@@ -67,142 +212,20 @@ animation: fall 3s forwards;
 &:hover{
     opacity: 1;
 }
-@media (max-width: 1559px){
-  width: 25%;
-}
-@media (max-width: 1247px){
-  width: 28%;
-  left: 7%;
-}
-@media (max-width: 1114px){
-  height: 600px;
-  top: 22%;
-}
-@media (max-width: 1036px){
-  height: 650px;
-  top: 18%;
-}
-@media (max-width: 961px){
-  width: 30%;
-  left: 4%;
-}
-@media (max-width: 897px){
-  width: 33%;
-  left: 1%;
-}
-@media (max-width: 820px){
-  width: 30%;
-  left: 3%;
-}
-@media (max-width: 567px){
-  width: 90%;
-  height: 250px;
-  top: 22%;
-  left: 2.5%;
-}
-@media (max-width: 414px){
-  height: 280px;
-  left: 1.5%;
-}
-@media (max-width: 736px) and (max-height: 414px){
-  top: 40%;
-}
-@media (max-width: 405px){
-  height: 300px;
-  top: 17%;
-}
-@media (max-width: 379px){
-  left: 1%;
-}
-@media (max-width: 375px){
-  top: 25%;
-}
-@media (max-width: 667px) and (max-height: 375px){
-  width: 90%;
-  height: 250px;
-  top: 50%;
-}
-@media (max-width: 360px) and (max-height: 640px){
-  top: 25%;
-}
-@media (max-width: 320px) and (max-height: 568px){
-  top: 35%;
-}
 `
 
 export const BioCardTwo = styled.div`
-position: absolute;
-top: 26.5%;
-right: 12%;
+box-sizing: border-box;
 padding: 15px;
 background-color: #eee;
 opacity: 0.7;
-width: 20%;
-height: 550px;
+width: 100%;
+height: auto;
 border-radius: 10px 10px 10px 10px;
 z-index: 1;
 animation: fall 3s forwards;
 &:hover{
     opacity: 1;
-}
-@media (max-width: 1559px){
-  width: 25%;
-}
-@media (max-width: 1247px){
-  width: 28%;
-  right: 7%;
-}
-@media (max-width: 1114px){
-  height: 600px;
-  top: 22%;
-}
-@media (max-width: 1036px){
-  height: 650px;
-  top: 18%;
-}
-@media (max-width: 961px){
-  width: 30%;
-}
-@media (max-width: 897px){
-  width: 33%;
-  right: 4%;
-}
-@media (max-width: 820px){
-  width: 33%;
-  right: 3%;
-}
-@media (max-width: 567px){
-  width: 90%;
-  height: 250px;
-  top: 55%;
-  left: 2.5%;
-}
-@media (max-width: 414px){
-  top: 65%;
-  left: 1.5%;
-}
-@media (max-width: 736px) and (max-height: 414px){
-  top: 40%;
-}
-@media (max-width: 405px){
-  height: 300px;
-}
-@media (max-width: 379px){
-  left: 1%;
-}
-@media (max-width: 375px){
-  top: 75%;
-}
-@media (max-width: 667px) and (max-height: 375px){
-  width: 90%;
-  top: 130%;
-  height: 270px;
-}
-@media (max-width: 360px) and (max-height: 640px){
-  top: 80%;
-}
-@media (max-width: 320px) and (max-height: 568px){
-  top: 100%;
 }
 `
 export const P = styled.p`
@@ -229,6 +252,9 @@ font-weight: 500;
 }
 @media (max-width: 597px){
   line-height: 24px;
+}
+@media (max-width: 531px){
+  font-size: 16px;
 }
 @media (max-width: 379px){
   line-height: 21px;

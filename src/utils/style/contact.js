@@ -16,7 +16,7 @@ export const ImageContact = styled.div`
     height: 230vh;
   }
   @media (max-width: 375px){
-    height: 150vh;
+    height: 160vh;
   }
   @media (max-width: 667px) and (max-height: 375px){
     height: 270vh;
@@ -63,7 +63,7 @@ export const Form = styled.form`
 @media (max-width: 897px){
   width: 42%;
   left: 9%;
-}
+}  
   @media (max-width: 820px) and (max-height: 882px) {
     width: 46%;
     left: 5%;
@@ -72,11 +72,7 @@ export const Form = styled.form`
   @media (max-width: 1024px) and (max-height: 768px){
     top: 20.5%;
     }
-  @media (max-width: 820px) && (max-width: 1180px) {
-    width: 46%;
-    left: 3%;
-    top: 28%;
-  }
+
   @media (max-width: 768px) and (max-height: 1024px) {
     top: 23%;
     width: 50%;
