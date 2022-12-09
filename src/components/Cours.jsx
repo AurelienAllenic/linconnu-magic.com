@@ -1,17 +1,19 @@
 import React from 'react'
 import { Link } from "react-scroll"
-import { ImageCours, BorderClass, MainPhraseClass, Ul, Li, SecondTextClass, ThirdTextClass, ContactClass, IconClass, ContainerLogoAndClass, PostScriptum } from "../utils/style/Cours"
+import { BorderClass, MainPhraseClass, Ul, Li, SecondTextClass, ThirdTextClass, ContactClass, IconClass, ContainerLogoAndClass, PostScriptum } from "../utils/style/Cours"
 import { MainTitle } from "../utils/style/bio"
 import { BsFillSuitSpadeFill } from "react-icons/bs"
 import { GiTwoCoins, GiCube, GiRing } from "react-icons/gi"
 import { SpanArrow2 } from "../utils/style/general"
 import { AiOutlineArrowDown } from "react-icons/ai"
+import { Parallax } from 'react-parallax';
+import CoursIMG from "../assets/cours.jpg"
 
 function Cours() {
     return (
         <>
             <section id="cours">
-                <ImageCours id='cours'>
+                <Parallax className='img' bgImage={CoursIMG} strength={800}>
                     <MainTitle>Cours</MainTitle>
                     <BorderClass>
                         <MainPhraseClass>Linconnu vous propose des cours pouvant porter sur différents objets :</MainPhraseClass>
@@ -26,7 +28,7 @@ function Cours() {
                         <PostScriptum>( Veuillez préciser votre nom, prénom, lieu désiré pour la prise du cours, ainsi que vos disponibilités )</PostScriptum>
                     </BorderClass>
                     <SpanArrow2><Link to='prestation' spy={true} smooth={true} offset={0} duration={500}><AiOutlineArrowDown /></Link></SpanArrow2>
-                </ImageCours>
+                </Parallax>
             </section>
         </>
     )

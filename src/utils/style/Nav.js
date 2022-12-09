@@ -215,9 +215,7 @@ export const Socials = styled.div`
         display: flex;
     }
     @media (max-width: 768px) and (max-height: 1024px){
-        margin-left: 0px;
-        position: relative;
-        left: -124%;
+        font-size: 15px;
     }
     @media (max-width: 768px) and (min-height: 1024){
         margin-left: -250px;
@@ -243,6 +241,11 @@ export const Socials = styled.div`
         margin-left: -140px;
         top: 0%;
         left: 0%;
+    }
+    @media (max-width: 402px){
+        margin-left: -100px;
+        display: flex;
+        flex-direction: column;
     }
     @media (max-width: 736px) and (max-height: 414px){
         margin-left: -655px;

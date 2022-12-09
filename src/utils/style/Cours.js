@@ -1,32 +1,4 @@
 import styled from "styled-components"
-import imgCours from "../../assets/cours.jpg"
-
-export const ImageCours = styled.div`
-background: url(${imgCours}) no-repeat center/cover;
-  height: 100vh;
-  width: 100%;
-  @media (max-width: 1180px) and (max-height: 820px){
-    height: 110vh;
-    }
-  @media (max-width: 1024px) and (max-height: 768px){
-    height: 120vh;
-    }
-  @media (max-width: 414px){
-    height: 130vh;
-  }
-  @media (max-width: 736px) and (max-height: 414px){
-    height: 230vh;
-  }
-  @media (max-width: 375px){
-    height: 145vh;
-  }
-  @media (max-width: 667px) and (max-height: 375px){
-    height: 270vh;
-}
-@media (max-width: 320px) and (max-height: 568px){
-  height: 160vh;
-}
-`;
 
 export const BorderClass = styled.div`
 background-color: #eee;
@@ -35,13 +7,14 @@ width: 55%;
 height: auto;
 position : relative;
 left: 23.5%;
-top: 6%;
-padding-top: 15px;
+padding: 15px;
+margin-top: 50px;
 font-weight: 500;
 line-height: 35px;
 text-align: center;
 border-radius: 10px 10px 10px 10px;
 animation: fall 3s forwards;
+margin-bottom: 5%;
 &:hover{
     opacity: 1;
 }
@@ -84,6 +57,9 @@ export const MainPhraseClass = styled.h2`
     }
     @media (max-width: 573px){
         font-size: 17px;
+    }  
+    @media (max-width: 375px){
+      font-size : 15px;
     }
 `
 export const Ul = styled.ul`
@@ -91,6 +67,9 @@ padding-top: 20px;
 line-height: 45px;
 @media (max-width: 406px){
     line-height: 30px;
+  }
+  @media (max-width: 375px){
+    font-size : 15px;
   }
 `
 
@@ -104,6 +83,9 @@ font-weight: 600;
 @media (max-width: 573px){
     font-size: 17px;
 }
+@media (max-width: 375px){
+  font-size : 15px;
+}
 `
 export const SecondTextClass = styled.p`
 font-size: 25px;
@@ -115,6 +97,9 @@ padding-top: 15px;
 @media (max-width: 573px){
     font-size: 17px;
 }
+@media (max-width: 375px){
+  font-size : 15px;
+}
 `
 export const ThirdTextClass = styled.p`
 font-size: 25px;
@@ -125,6 +110,9 @@ padding-top: 15px;
 }
 @media (max-width: 573px){
     font-size: 17px;
+}
+@media (max-width: 375px){
+  font-size : 15px;
 }
 `
 export const ContactClass = styled.a`
@@ -153,5 +141,8 @@ padding: 10px;
 }
 @media (max-width: 545px){
     font-size: 15px;
+  }
+  @media (max-width: 375px){
+    font-size : 13px;
   }
 `

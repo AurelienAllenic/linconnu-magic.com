@@ -5,12 +5,14 @@ import { ImagePrestation, CardPrestation, MainTitleCard, ContentCard, Important 
 import { PostScriptum, ContactClass } from "../utils/style/Cours"
 import { AiOutlineArrowDown } from "react-icons/ai"
 import { SpanArrow3 } from "../utils/style/general"
+import { Parallax } from 'react-parallax';
+import PrestationIMG from "../assets/prestation.jpg"
 
 function Prestation() {
     return (
         <>
             <section id="prestation">
-                <ImagePrestation>
+                <Parallax className='img' bgImage={PrestationIMG} strength={800}>
                     <MainTitle>Prestation</MainTitle>
                     <CardPrestation>
                         <MainTitleCard>Linconnu vous propose des prestations de natures diverses :</MainTitleCard>
@@ -19,7 +21,7 @@ function Prestation() {
                         <PostScriptum>( Veuillez préciser votre nom, prénom, lieu, date et durée de la prestation, les tarifs varieront en fonction de ces critères )</PostScriptum>
                     </CardPrestation>
                     <SpanArrow3><Link to='contact' spy={true} smooth={true} offset={0} duration={500}><AiOutlineArrowDown /></Link></SpanArrow3>
-                </ImagePrestation>
+                </Parallax>
             </section>
         </>
     )
