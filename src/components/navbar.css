@@ -81,7 +81,9 @@
         width: 100vw;
         visibility: visible;
     }
-
+    .navbar_item{
+        margin: 1rem;
+    }
     /* bonus */
     .navbar_item::after{
         content: "";
