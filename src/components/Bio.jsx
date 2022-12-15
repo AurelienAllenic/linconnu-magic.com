@@ -16,7 +16,7 @@ function Bio() {
                                 Formé dès sa jeunesse par ses proches, entraîné par un professeur particulier aux talents infinis et ce, durant de nombreuses années, Linconnu sort de l'ombre et vient offrir son savoir incommensurable au commun des moldus.
                             </P>
                             <P>
-                                Cours particuliers, Prestations magiques en tout genre, Linconnu manie tout aussi bien les cartes, que les pièces, balles en mousse, bagues, Rubik's Cube. <br />
+                                <br />Cours particuliers, Prestations magiques en tout genre, Linconnu manie tout aussi bien les cartes, que les pièces, balles en mousse, bagues, Rubik's Cube. <br />
                                 Venez donc découvrir un univers étrange et qui semble pourtant... si réel.
                             </P>
                         </BioCard>

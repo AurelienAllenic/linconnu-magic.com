@@ -7,24 +7,17 @@ export const ImageContact = styled.div`
   background: url(${imgContact}) no-repeat center/cover;
   height: 100vh;
   width: 100%;
-  @media (max-width: 1024px) and (max-height: 768px){
-    height: 120vh;
-    }
-  @media (max-width: 414px){
-    height: 105vh;
+  @media (max-width: 1280px){
+    background: url(${imgContact2}) no-repeat center/cover;
   }
   @media (max-width: 736px) and (max-height: 414px){
-    height: 230vh;
-  }  
-  @media (max-width: 667px) and (max-height: 375px){
-    height: 270vh;
+    height: 220vh;
   }
-  @media (max-width: 375px){
-    height: 160vh;
+  @media (max-width: 414px) and (max-height: 736px){
+    height: 120vh;
   }
-
-  @media (max-width: 320px) and (max-height: 568px){
-    height: 200vh;
+  @media (max-width: 414px) and (max-height: 667px){
+    height: 130vh;
   }
 `;
 export const Form = styled.form`
@@ -37,8 +30,8 @@ export const Form = styled.form`
   transform: rotate(-1.5deg);
   gap : 10px;
   animation: fade 3s forwards;
-}
-  @media (max-width: 1630px){
+} 
+@media (max-width: 1630px){
   gap: 5px;
   top: 18.5%;
 }
@@ -53,61 +46,19 @@ export const Form = styled.form`
   left: 22%;
   width: 29%;
 }
-@media (max-width: 1141px){
-  width: 32%;
-  left: 18.5%;
+@media (max-width: 1280px){
+  background-color: #333;
+  padding: 20px;
+  transform: rotate(0deg);
+  border-radius: 10px 10px 10px 10px;
+  width: 94%;
+  left: 1%;
+  top: 10%;
+  margin-right: 1%;
 }
-@media (max-width: 1036px){
-  width: 35%;
-  left: 15%;
-  top: 19.5%;
-} 
- @media (max-width: 1024px) and (max-height: 768px){
-    top: 20.5%;
-    }
-
-@media (max-width: 897px){
-  width: 42%;
-  left: 9%;
-}  
-  @media (max-width: 820px) and (max-height: 882px) {
-    width: 46%;
-    left: 5%;
-    top: 19.5%;
-  }
-
-  @media (max-width: 768px) and (max-height: 1024px) {
-    top: 23%;
-    width: 50%;
-    left: 1%;
-  }
-  @media (max-width: 768px) and (max-height: 882px) {
-    top: 19.5%;
-    width: 50%;
-    left: 1%;
-  }
-  @media(max-width: 736px) and (max-height: 414px) {
-    top: 23%;
-  }
-  @media (max-width: 715px){
-    width: 50%;
-    left: 1.5%;
-  }  
-  @media (max-width: 414px) and (max-height: 882px) {
-    top: 22%;
-  }
-  @media (max-width: 414px) and (max-height: 736px) {
-    top: 17%;
-  }
-  @media (max-width: 375px) and (max-height: 667px){
-    top: 22%;
-  }
-  @media (max-width: 375px) and (max-height: 882px) {
-    top: 25%;
-  }
-  @media (max-width: 360px) and (max-height: 640px){
-    top: 20.5%;
-  }
+@media (max-width: 789px){
+  width: fit-content;
+}
 `
 export const Input = styled.input`
 font-size: 25px;
@@ -124,6 +75,14 @@ text-align: center;
 }
 @media (max-width: 1630px){
   font-size: 20px;
+}
+@media (max-width: 1280px){
+  color: white;
+  background-color: transparent;
+  font-size: 25px;
+  &::placeholder{
+    color: white;
+  }
 }
 @media (max-width: 607px){
   font-size: 17px;
@@ -157,20 +116,19 @@ border-radius: 10px 10px 10px 10px;
 @media (max-width: 1600px){
   height: 120px;
 }
+@media (max-width: 1280px){
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  &::placeholder{
+    color: white;
+  }
+}
 @media (max-width: 607px){
   font-size: 17px;
 }
 @media (max-width: 529px){
   font-size: 15px;
-}
-@media (max-width: 1180px) and (max-height: 820px){
-  height: 90px;
-  }
-@media (max-width: 414px){
-    height: 90px;
-}
-@media (max-width: 375px){
-    height: 150px;
 }
 `
 
@@ -191,6 +149,10 @@ border-radius: 10px 10px 10px 10px;
   background-color: transparent;
   font-weight: 600;
 }
+@media (max-width: 1280px){
+  background-color: transparent;
+  color: white;
+}
 @media (max-width: 607px){
   font-size: 17px;
 }
@@ -207,63 +169,33 @@ gap : 10px;
 export const CardContact = styled.div`
 width: 25%;
 height: 400px;
+opacity: 0.8;
 position : relative;
 left: 60%;
 top: -15%;
 border-radius: 10px 10px 10px 10px;
 animation: fall 3s forwards;
-&:hover{
-  opacity: 1;
-}
 @media (max-width: 1351px){
   height: 450px;
 }
-@media (max-width: 1269px){
-  height: 490px;
+@media (max-width: 1280px){
+  width: 99%;
+  left: 0%;
+  top: 15%;
+  height: 200px;
+  opacity: 1;
 }
-@media (max-width: 1115px){
-  width: 30%;
+@media (max-width: 424px){
+  height: 250px;
+  top: 12%;
 }
-@media (max-width: 1036px){
-  width: 35%;
-}
-@media (max-width: 820px){
-  width: 35%;
-  height: 500px;
-  top: -5%;
-}
-@media (max-width: 790px){
-  height: 420px;
-  top: -18%;
-}
-@media (max-width: 666px){
-  height: 480px;
-  top: -22%;
-}
-@media (max-width: 474px){
-  height: 500px;
-  width: 38%;
-}
-@media (max-width: 407px) and (max-height: 882px) {
-  top: 28%;
-  width: 80%;
-  left: 18%;
-  height: 260px;
-}
-@media (max-width: 382px) and (max-height: 882px) {
+@media (max-width: 270px){
   height: 280px;
+  top: 10%;
 }
-@media (max-width: 375px) and (max-height: 667px) {
-  top: 29%;
-}
-@media (max-width: 375px) and (max-height: 882px) {
-  top: 33%;
-}
-@media (max-width: 360px) and (max-height: 640px){
-  top: 25%;
-}
-@media (max-width: 320px) and (max-height: 568px){
-  height: 300px;
+@media (max-width: 244px){
+  height: 350px;
+  top: 8%;
 }
 `
 export const ContentContactCard = styled.p`
@@ -290,4 +222,8 @@ color: white;
 @media (max-width: 512px){
   line-height: 23px;
 }
+`
+export const ContactDiv = styled.div`
+width: 100%;
+height: 100vh;
 `

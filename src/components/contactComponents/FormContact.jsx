@@ -1,11 +1,13 @@
 import React from 'react'
-import { Form, Input, Textarea, Button, InputDiv, SpanAlert } from "../../utils/style/contact"
+import { Form, Input, Textarea, Button, InputDiv, CardContact, ContentContactCard } from "../../utils/style/contact"
 import { useRef } from 'react'
 import emailjs from 'emailjs-com'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { MainTitle } from "../../utils/style/bio"
 import "../../index.css"
+import { Important } from "../../utils/style/prestation"
+import { PostScriptum } from "../../utils/style/Cours"
 
 
 function FormContact() {

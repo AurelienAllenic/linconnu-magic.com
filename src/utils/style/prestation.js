@@ -3,6 +3,7 @@ import styled from "styled-components"
 export const CardPrestation = styled.div`
 position: relative;
 margin-top: 90px;
+opacity: 0.8;
 background: #eee;
 left: 26.5%;
 width: 50%;
@@ -29,16 +30,19 @@ animation: fall 3s forwards;
   @media(max-width: 736px) and (max-height: 414px) {
     line-height: 30px;
   }
-  @media (max-width: 507px){
+  @media (max-width: 545px){
     line-height: 30px;
+    padding: 30px;
+    width: 90%;
+    left: 0%;
+    opacity: 1;
 }
 @media (max-width: 438px){
     line-height: 27px;
 }
-@media (max-width: 396px){
-    width: 95%;
-    left: 2.5%;
-  }
+@media (max-width: 375px){
+  padding: 20px;
+}
 `
 export const MainTitleCard = styled.h3`
 font-size: 25px;

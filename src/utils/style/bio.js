@@ -27,10 +27,14 @@ justify-content: center:
 width: 100%;
 height: 85vh;
 margin-top: 90px;
+@media (max-width: 736px) and (max-height: 414px){
+  height: 100vh;
+}
 `
 
 export const BioCard = styled.div`
 box-sizing: border-box;
+opacity: 0.8;
 padding: 15px;
 position: relative;
 top: -10%;
@@ -43,9 +47,17 @@ z-index: 1;
 animation: fall 3s forwards;
 margin-bottom: 5%;
 color:white;
+@media (max-width: 930px){
+  width: 90%;
+  left: 5%;
+}
 @media(max-width: 845px){
   width: 90%;
   left: 5%;
+}
+@media (max-width: 545px){
+  width: 100%;
+  left: 0%;
 }
 @keyframes fall {
   0% {

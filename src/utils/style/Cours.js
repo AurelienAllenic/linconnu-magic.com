@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const BorderClass = styled.div`
 width: 55%;
+opacity: 0.8;
 height: auto;
 position : relative;
 left: 23.5%;
@@ -36,21 +37,20 @@ margin-bottom: 5%;
   }
   @media (max-width: 545px){
     line-height: 32px;
-  }
-  @media(max-width: 527px){
     width: 90%;
-    left: 2%;
+    left: 0%;
+    padding: 30px;
+    opacity: 1;
   }
   @media (max-width: 484px){
     line-height: 29px;
 }
 @media (max-width: 386px){
     line-height: 25px;
-    left: 1%;
   }
   @media (max-width: 375px){
-    left: 4%;
-}
+    padding: 20px;
+  }
   `
 export const MainPhraseClass = styled.h2`
     font-size: 25px;
