@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import imgBio from "../../assets/bio.jpg"
 
 export const MainTitle = styled.h1`
 color: white;
@@ -37,29 +36,29 @@ position: relative;
 top: -10%;
 left: 15%;
 padding-bottom: 20px;
-background-color: #eee;
-opacity: 0.7;
 width: 70%;
 height: auto;
 border-radius: 10px 10px 10px 10px;
 z-index: 1;
 animation: fall 3s forwards;
 margin-bottom: 5%;
+color:white;
+@media(max-width: 845px){
+  width: 90%;
+  left: 5%;
+}
 @keyframes fall {
   0% {
     background: transparent;
   }
   100% {
-    background: #eee;
+    background: #333;
   }
-}
-&:hover{
-    opacity: 1;
 }
 `
 export const P = styled.p`
-font-size: 20px;
-line-height: 35px;
+font-size: 23px;
+line-height: 40px;
 font-weight: 500;
 @media (max-width: 820px){
   line-height: 30px;

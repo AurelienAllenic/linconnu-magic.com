@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import imgContact from "../../assets/contact.jpg"
+import imgContact2 from "../../assets/contact2.jpg"
 
 
 export const ImageContact = styled.div`
@@ -196,8 +197,6 @@ flex-direction: row;
 gap : 10px;
 `
 export const CardContact = styled.div`
-background-color: #eee;
-opacity: 0.7;
 width: 25%;
 height: 400px;
 position : relative;
@@ -265,6 +264,7 @@ margin-top: 10px;
 padding : 20px;
 font-weight: 400;
 line-height: 35px;
+color: white;
 @media (max-width: 790px){
   font-size: 20px;
   line-height: 30px;

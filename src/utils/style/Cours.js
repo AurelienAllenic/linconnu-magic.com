@@ -1,8 +1,6 @@
 import styled from "styled-components"
 
 export const BorderClass = styled.div`
-background-color: #eee;
-opacity: 0.7;
 width: 55%;
 height: auto;
 position : relative;
@@ -15,9 +13,6 @@ text-align: center;
 border-radius: 10px 10px 10px 10px;
 animation: fall 3s forwards;
 margin-bottom: 5%;
-&:hover{
-    opacity: 1;
-}
 @media (max-width: 1630px){
     top: 2%;
 }
@@ -35,15 +30,23 @@ margin-bottom: 5%;
     top: 1%;
     padding: 15px;
   }
+  @media(max-width: 845px){
+    width: 90%;
+    left: 4%;
+  }
   @media (max-width: 545px){
     line-height: 32px;
   }
+  @media(max-width: 527px){
+    width: 90%;
+    left: 2%;
+  }
   @media (max-width: 484px){
-    left: 5%;
     line-height: 29px;
 }
 @media (max-width: 386px){
     line-height: 25px;
+    left: 1%;
   }
   @media (max-width: 375px){
     left: 4%;
@@ -52,6 +55,7 @@ margin-bottom: 5%;
 export const MainPhraseClass = styled.h2`
     font-size: 25px;
     padding-top: 15px;
+    color: white;
     @media (max-width: 717px){
     font-size: 20px;
     }
@@ -65,6 +69,7 @@ export const MainPhraseClass = styled.h2`
 export const Ul = styled.ul`
 padding-top: 20px;
 line-height: 45px;
+color: white;
 @media (max-width: 406px){
     line-height: 30px;
   }
@@ -91,6 +96,7 @@ export const SecondTextClass = styled.p`
 font-size: 25px;
 font-weight: 700;
 padding-top: 15px;
+color: white;
 @media (max-width: 717px){
     font-size: 20px;
 }
@@ -105,6 +111,7 @@ export const ThirdTextClass = styled.p`
 font-size: 25px;
 font-weight: 700;
 padding-top: 15px;
+color: white;
 @media (max-width: 717px){
  font-size: 20px;   
 }
@@ -119,6 +126,7 @@ export const ContactClass = styled.a`
 text-decoration : none;
 color: black;
 font-weight: 900;
+color: white;
 &:hover{
     font-weight: 500;
 }
@@ -135,6 +143,7 @@ export const PostScriptum = styled.p`
 font-size: 18px;
 font-weight: 600;
 font-style: italic;
+color: white;
 padding: 10px;
 @media (max-width: 573px){
     font-size: 17px;

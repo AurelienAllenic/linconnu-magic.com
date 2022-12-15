@@ -3,6 +3,7 @@ import Bio from "./components/Bio";
 import Cours from "./components/Cours";
 import Prestation from "./components/Prestation";
 import Contact from "./components/Contact"
+import Footer from "./components/Footer";
 import "./index.css"
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Cours/>
       <Prestation/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }

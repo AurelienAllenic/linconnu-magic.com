@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from "react-scroll"
 import { MainTitle, BioCard, P, CardInCenter } from "../utils/style/bio"
-import { AiOutlineArrowDown } from "react-icons/ai"
-import { SpanArrow } from "../utils/style/general"
 import { Parallax } from 'react-parallax';
 import BioIMG from "../assets/bio.jpg"
 
@@ -23,7 +21,6 @@ function Bio() {
                             </P>
                         </BioCard>
                     </CardInCenter>
-                    <SpanArrow><Link to='cours' spy={true} smooth={true} offset={0} duration={500}><AiOutlineArrowDown /></Link></SpanArrow>
                 </Parallax>
             </section>
         </>

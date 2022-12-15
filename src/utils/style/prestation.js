@@ -5,7 +5,6 @@ position: relative;
 margin-top: 90px;
 background: #eee;
 left: 26.5%;
-opacity: 0.7;
 width: 50%;
 height: auto;
 padding-top: 25px;
@@ -14,9 +13,6 @@ line-height: 35px;
 border-radius: 10px 10px 10px 10px;
 color: black;
 animation: fall 3s forwards;
-&:hover{
-opacity: 1;
-}
   @media (max-width: 1115px){
     width: 65%;
     left: 20%;
@@ -43,6 +39,7 @@ opacity: 1;
 `
 export const MainTitleCard = styled.h3`
 font-size: 25px;
+color: white;
 @media (max-width: 545px){
     font-size: 18px;
 }
@@ -51,6 +48,7 @@ export const ContentCard = styled.p`
 font-size: 22px;
 font-weight: 500;
 padding: 15px;
+color: white;
 @media (max-width: 717px){
     font-size: 20px;
     padding: 10px;

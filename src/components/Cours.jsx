@@ -4,8 +4,6 @@ import { BorderClass, MainPhraseClass, Ul, Li, SecondTextClass, ThirdTextClass, 
 import { MainTitle } from "../utils/style/bio"
 import { BsFillSuitSpadeFill } from "react-icons/bs"
 import { GiTwoCoins, GiCube, GiRing } from "react-icons/gi"
-import { SpanArrow2 } from "../utils/style/general"
-import { AiOutlineArrowDown } from "react-icons/ai"
 import { Parallax } from 'react-parallax';
 import CoursIMG from "../assets/cours.jpg"
 
@@ -27,7 +25,6 @@ function Cours() {
                         <ThirdTextClass>Les tarifs des cours varient en fonction du temps et coût de déplacement, n'hésitez pas à <ContactClass href="#contact">contacter Linconnu</ContactClass> pour plus d'informations</ThirdTextClass>
                         <PostScriptum>( Veuillez préciser votre nom, prénom, lieu désiré pour la prise du cours, ainsi que vos disponibilités )</PostScriptum>
                     </BorderClass>
-                    <SpanArrow2><Link to='prestation' spy={true} smooth={true} offset={0} duration={500}><AiOutlineArrowDown /></Link></SpanArrow2>
                 </Parallax>
             </section>
         </>
