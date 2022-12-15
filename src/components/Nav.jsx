@@ -1,6 +1,7 @@
 import React from 'react'
 import "./navbar.css"
 import { useState } from "react"
+import { Link } from "react-scroll"
 
 function Navbar() {
 
@@ -11,19 +12,19 @@ function Navbar() {
     }
     return (
         <div className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
-            <div className='navbar_logo'>Linconnu</div>
+            <Link className='navbar_logo' to='bio' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Linconnu</Link>
             <ul className='navbar_links'>
                 <li className='navbar_item slideInDown-1'>
-                    <a href='/' className='navbar_link'>Bio</a>
+                    <Link className='navbar_logo' to='bio' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Bio</Link>
                 </li>
                 <li className='navbar_item slideInDown-2'>
-                    <a href='/' className='navbar_link'>Cours</a>
+                    <Link className='navbar_logo' to='cours' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Cours</Link>
                 </li>
                 <li className='navbar_item slideInDown-3'>
-                    <a href='/' className='navbar_link'>Prestation</a>
+                    <Link className='navbar_logo' to='prestation' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Prestation</Link>
                 </li>
                 <li className='navbar_item slideInDown-4'>
-                    <a href='/' className='navbar_link'>Contact</a>
+                    <Link className='navbar_logo' to='contact' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Contact</Link>
                 </li>
             </ul>
             <button className='navbar_burger' onClick={handleShowLinks}>
