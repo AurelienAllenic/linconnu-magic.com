@@ -56,6 +56,9 @@ export const MainPhraseClass = styled.h2`
     font-size: 25px;
     padding-top: 15px;
     color: white;
+    @media(max-width: 736px) and (max-height: 414px) {
+    font-size: 20px;
+    }
     @media (max-width: 717px){
     font-size: 20px;
     }
@@ -70,6 +73,10 @@ export const Ul = styled.ul`
 padding-top: 20px;
 line-height: 45px;
 color: white;
+@media(max-width: 736px) and (max-height: 414px) {
+  font-size: 20px;
+  line-height: 35px;
+  }
 @media (max-width: 406px){
     line-height: 30px;
   }
@@ -82,6 +89,9 @@ export const Li = styled.li`
 list-style : none;
 font-size: 25px;
 font-weight: 600;
+@media(max-width: 736px) and (max-height: 414px) {
+  font-size: 20px;
+  }
 @media (max-width: 717px){
     font-size: 20px;
 }
@@ -97,6 +107,10 @@ font-size: 25px;
 font-weight: 700;
 padding-top: 15px;
 color: white;
+@media(max-width: 736px) and (max-height: 414px) {
+  font-size: 20px;
+  padding-top: 10px;
+  }
 @media (max-width: 717px){
     font-size: 20px;
 }
@@ -112,6 +126,9 @@ font-size: 25px;
 font-weight: 700;
 padding-top: 15px;
 color: white;
+@media(max-width: 736px) and (max-height: 414px) {
+  font-size: 20px;
+  }
 @media (max-width: 717px){
  font-size: 20px;   
 }
@@ -127,12 +144,18 @@ text-decoration : none;
 color: black;
 font-weight: 900;
 color: white;
+@media(max-width: 736px) and (max-height: 414px) {
+  font-size: 20px;
+  }
 &:hover{
     font-weight: 500;
 }
 `
 export const IconClass = styled.span`
 font-size: 25px;
+@media(max-width: 736px) and (max-height: 414px) {
+  font-size: 20px;
+  }
 `
 export const ContainerLogoAndClass = styled.div`
 display: flex;
@@ -145,6 +168,9 @@ font-weight: 600;
 font-style: italic;
 color: white;
 padding: 10px;
+@media(max-width: 736px) and (max-height: 414px) {
+  font-size: 20px;
+  }
 @media (max-width: 573px){
     font-size: 17px;
 }

@@ -36,6 +36,11 @@ code {
   position: relative;
   height: 100vh;
 }
+@media screen and (max-width: 1180px) and (max-height: 820px) {
+  .img{
+    height: 110vh;
+  }
+}
 @media screen and (max-width: 820px){
   .toast-message{
     width: 100%;
@@ -47,5 +52,15 @@ code {
   }
   .img{
     height: 120vh;
+  }
+}
+@media screen and (max-width: 736px) and (max-height: 414px) {
+  .img{
+    height: 190vh;
+  }
+}
+@media screen and (max-width: 667px) and (max-height: 375px) {
+  .img{
+    height: 210vh;
   }
 }

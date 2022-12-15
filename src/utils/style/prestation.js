@@ -26,6 +26,9 @@ animation: fall 3s forwards;
     left: 10%;
     top: 5%;
   }
+  @media(max-width: 736px) and (max-height: 414px) {
+    line-height: 30px;
+  }
   @media (max-width: 507px){
     line-height: 30px;
 }
@@ -40,6 +43,9 @@ animation: fall 3s forwards;
 export const MainTitleCard = styled.h3`
 font-size: 25px;
 color: white;
+@media(max-width: 736px) and (max-height: 414px) {
+  font-size: 20px;
+}
 @media (max-width: 545px){
     font-size: 18px;
 }
@@ -49,6 +55,9 @@ font-size: 22px;
 font-weight: 500;
 padding: 15px;
 color: white;
+@media(max-width: 736px) and (max-height: 414px) {
+  font-size: 20px;
+}
 @media (max-width: 717px){
     font-size: 20px;
     padding: 10px;

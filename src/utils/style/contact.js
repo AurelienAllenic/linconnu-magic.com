@@ -15,13 +15,14 @@ export const ImageContact = styled.div`
   }
   @media (max-width: 736px) and (max-height: 414px){
     height: 230vh;
+  }  
+  @media (max-width: 667px) and (max-height: 375px){
+    height: 270vh;
   }
   @media (max-width: 375px){
     height: 160vh;
   }
-  @media (max-width: 667px) and (max-height: 375px){
-    height: 270vh;
-  }
+
   @media (max-width: 320px) and (max-height: 568px){
     height: 200vh;
   }
@@ -60,7 +61,11 @@ export const Form = styled.form`
   width: 35%;
   left: 15%;
   top: 19.5%;
-}
+} 
+ @media (max-width: 1024px) and (max-height: 768px){
+    top: 20.5%;
+    }
+
 @media (max-width: 897px){
   width: 42%;
   left: 9%;
@@ -70,9 +75,6 @@ export const Form = styled.form`
     left: 5%;
     top: 19.5%;
   }
-  @media (max-width: 1024px) and (max-height: 768px){
-    top: 20.5%;
-    }
 
   @media (max-width: 768px) and (max-height: 1024px) {
     top: 23%;
@@ -84,12 +86,18 @@ export const Form = styled.form`
     width: 50%;
     left: 1%;
   }
+  @media(max-width: 736px) and (max-height: 414px) {
+    top: 23%;
+  }
   @media (max-width: 715px){
     width: 50%;
     left: 1.5%;
   }  
   @media (max-width: 414px) and (max-height: 882px) {
     top: 22%;
+  }
+  @media (max-width: 414px) and (max-height: 736px) {
+    top: 17%;
   }
   @media (max-width: 375px) and (max-height: 667px){
     top: 22%;
