@@ -27,6 +27,8 @@ justify-content: center:
 width: 100%;
 height: 85vh;
 margin-top: 90px;
+color:white;
+font-weight: 600;
 @media (max-width: 736px) and (max-height: 414px){
   height: 100vh;
 }
@@ -46,7 +48,6 @@ border-radius: 10px 10px 10px 10px;
 z-index: 1;
 animation: fall 3s forwards;
 margin-bottom: 5%;
-color:white;
 @media (max-width: 930px){
   width: 90%;
   left: 5%;

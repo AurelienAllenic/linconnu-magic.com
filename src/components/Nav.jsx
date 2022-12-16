@@ -12,8 +12,11 @@ function Navbar() {
     }
     return (
         <div className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
-            <Link className='navbar_logo' to='bio' spy={true} smooth={true} offset={0} duration={500}>Linconnu</Link>
+            <Link className='navbar_logo' to='home' spy={true} smooth={true} offset={0} duration={500}>Linconnu</Link>
             <ul className='navbar_links'>
+                <li className='navbar_item slideInDown-1'>
+                    <Link className='navbar_logo' to='home' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Accueil</Link>
+                </li>
                 <li className='navbar_item slideInDown-1'>
                     <Link className='navbar_logo' to='bio' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Bio</Link>
                 </li>
