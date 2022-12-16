@@ -40,6 +40,15 @@ export const ImageContact = styled.div`
   @media(max-width: 1256px) and (max-height:290px) {
     height: 300vh;
   }
+  @media(max-width: 1256px) and (max-height:234px) {
+    height: 360vh;
+  }
+  @media(max-width: 1256px) and (max-height:225px) {
+    height: 380vh;
+  }
+  @media(max-width: 1256px) and (max-height:212px) {
+    height: 420vh;
+  }
   @media (max-width: 736px) and (max-height: 414px){
     height: 220vh;
   }

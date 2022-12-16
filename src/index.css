@@ -96,6 +96,21 @@ code {
     height: 340vh;
   }
 }
+@media screen and (max-width: 1256px) and (max-height: 234px) {
+  .img{
+    height: 360vh;
+  }
+}
+@media screen and (max-width: 1256px) and (max-height: 225px) {
+  .img{
+    height: 380vh;
+  }
+}
+@media screen and (max-width: 1256px) and (max-height: 212px) {
+  .img{
+    height: 420vh;
+  }
+}
 @media screen and (max-width: 1180px) and (max-height: 820px) {
   .img{
     height: 110vh;
