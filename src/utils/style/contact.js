@@ -10,6 +10,36 @@ export const ImageContact = styled.div`
   @media (max-width: 1280px){
     background: url(${imgContact2}) no-repeat center/cover;
   }
+  @media(max-width: 1256px) and (max-height: 777px) {
+    height: 120vh;
+  }
+  @media(max-width: 1256px) and (max-height:692px) {
+    height: 140vh;
+  }
+  @media(max-width: 1256px) and (max-height:612px) {
+    height: 160vh;
+  }
+  @media(max-width: 1256px) and (max-height:512px) {
+    height: 180vh;
+  }
+  @media(max-width: 1256px) and (max-height:447px) {
+    height: 200vh;
+  }
+  @media(max-width: 1256px) and (max-height:407px) {
+    height: 220vh;
+  }
+  @media(max-width: 1256px) and (max-height:366px) {
+    height: 240vh;
+  }
+  @media(max-width: 1256px) and (max-height:337px) {
+    height: 260vh;
+  }
+  @media(max-width: 1256px) and (max-height:311px) {
+    height: 280vh;
+  }
+  @media(max-width: 1256px) and (max-height:290px) {
+    height: 300vh;
+  }
   @media (max-width: 736px) and (max-height: 414px){
     height: 220vh;
   }
