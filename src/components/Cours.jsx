@@ -5,7 +5,7 @@ import { MainTitle } from "../utils/style/bio"
 import { BsFillSuitSpadeFill } from "react-icons/bs"
 import { GiTwoCoins, GiCube, GiRing } from "react-icons/gi"
 import { Parallax } from 'react-parallax';
-import CoursIMG from "../assets/cours.jpg"
+import CoursIMG from "../assets/cours.webp"
 
 function Cours() {
     return (

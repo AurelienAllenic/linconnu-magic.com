@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "react-scroll"
 import { MainTitle, BioCard, P, CardInCenter } from "../utils/style/bio"
 import { Parallax } from 'react-parallax';
-import BioIMG from "../assets/bio.jpg"
+import BioIMG from "../assets/bio.webp"
 
 function Bio() {
     return (

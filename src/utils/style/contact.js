@@ -1,6 +1,6 @@
 import styled from "styled-components"
-import imgContact from "../../assets/contact.jpg"
-import imgContact2 from "../../assets/contact2.jpg"
+import imgContact from "../../assets/contact.webp"
+import imgContact2 from "../../assets/contact2.webp"
 
 
 export const ImageContact = styled.div`

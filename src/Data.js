@@ -1,14 +1,14 @@
 export const linconnu = [
     {
-        image: "/images/cours.jpg",
+        image: "/images/cours.webp",
         title: "Linconnu",
     },
     {
-        image: "/images/cardOne.jpg",
+        image: "/images/cardOne.webp",
         title: "Artiste prestidigitateur",
     },
     {
-        image: "/images/bio.jpg",
+        image: "/images/bio.webp",
         title: "Cours & prestations",
     },
 ]

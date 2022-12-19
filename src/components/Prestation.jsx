@@ -4,7 +4,7 @@ import { MainTitle } from '../utils/style/bio'
 import { ImagePrestation, CardPrestation, MainTitleCard, ContentCard, Important } from "../utils/style/prestation"
 import { PostScriptum, ContactClass } from "../utils/style/Cours"
 import { Parallax } from 'react-parallax';
-import PrestationIMG from "../assets/prestation.jpg"
+import PrestationIMG from "../assets/prestation.webp"
 
 function Prestation() {
     return (
