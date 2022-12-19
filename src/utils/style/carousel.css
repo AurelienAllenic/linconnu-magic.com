@@ -46,6 +46,7 @@
 .card_title{
     color: white;
     font-size: 80px;
+    text-align: center;
 }
 @media screen and (max-width: 868px) {
     .card_title{
@@ -54,11 +55,6 @@
 }
 @media screen and (max-width: 416px) {
     .card_title{
-        font-size: 30px;
-    }
-}
-@media screen and (max-width: 370px) {
-    .card_title{
-        font-size: 22px;
+        font-size: 40px;
     }
 }
