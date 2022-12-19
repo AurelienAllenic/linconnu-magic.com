@@ -125,6 +125,8 @@ text-align: center;
 }
 @media (max-width: 607px){
   font-size: 17px;
+  border-bottom: 1px solid white;
+  border-radius: 0px;
 }
 @media (max-width: 529px){
   font-size: 15px;
