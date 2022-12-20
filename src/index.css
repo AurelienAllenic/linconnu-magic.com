@@ -3,6 +3,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #333;
 }
 * {
   margin: 0;
@@ -24,6 +25,7 @@ code {
   align-items: center;
   font-size: 55px;
   height: 100vh;
+  color: white;
 }
 .toast-message {
   font-size: 45px;

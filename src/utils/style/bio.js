@@ -8,6 +8,7 @@ justify-content: center;
 align-items: center;
 padding-top: 100px;
 animation: fade 1s forwards;
+animation-delay: 3s;
   @keyframes fade {
     0% {
       opacity: 0;

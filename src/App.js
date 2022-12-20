@@ -26,7 +26,8 @@ function App() {
         <div className="loader">
         <PuffLoader
         loading={loading}
-        size={250}
+        size={350}
+        color="white"
         aria-label="Loading Spinner"
         data-testid="loader"
       /></div>
