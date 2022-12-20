@@ -7,17 +7,41 @@ import Contact from "./components/Contact"
 import Footer from "./components/Footer";
 import "./index.css"
 import { linconnu } from "./Data";
-
+import {useState, useEffect} from "react"
+import PuffLoader from "react-spinners/PuffLoader";
+  
 function App() {
+
+  const [loading, setLoading] = useState(false)
+  useEffect(()=>{
+    setLoading(true)
+    setTimeout(()=>{
+      setLoading(false)
+    }, 3500)
+  }, [])
   return (
     <div className="App">
-      <Nav />
-      <Carousel images={linconnu}/>
-      <Bio/>
-      <Cours/>
-      <Prestation/>
-      <Contact/>
-      <Footer/>
+      {
+        loading ?
+        <div className="loader">
+        <PuffLoader
+        loading={loading}
+        size={250}
+        aria-label="Loading Spinner"
+        data-testid="loader"
+      /></div>
+      :
+      <>
+        <Nav />
+        <Carousel images={linconnu}/>
+        <Bio/>
+        <Cours/>
+        <Prestation/>
+        <Contact/>
+        <Footer/>
+      </>
+      }
+
     </div>
   );
 }
