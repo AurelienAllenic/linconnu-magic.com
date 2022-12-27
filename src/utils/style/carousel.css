@@ -102,6 +102,9 @@
     .arrowcontainer{
         height: 170%;
     }
+    .arrow{
+        font-size: 60px;
+    }
 }
 @media screen and (max-width: 416px) {
     .card_title{
