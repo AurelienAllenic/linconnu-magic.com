@@ -1,3 +1,34 @@
+@keyframes arrow {
+    0%{
+        opacity: 1;
+    }
+    12.5%{
+        opacity: 0.75;
+    }
+    25%{
+        opacity: 0.5;
+    }
+    37.5%{
+        opacity: 0.25;
+    }
+    50%{
+        opacity: 0;
+    }
+    62.5%{
+        opacity: 0.25;
+    }
+    75%{
+        opacity: 0.5;
+    }
+    92.5%{
+        opacity: 0.75;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+
 .carousel{
     display: flex;
     align-items: center;
@@ -5,6 +36,7 @@
     position: relative;
     height: 100vh;
     width: 100%;
+    animation: fade 3s forwards;
 }
 
 .carousel_wrapper{
@@ -47,6 +79,21 @@
     color: white;
     font-size: 80px;
     text-align: center;
+}
+.arrow{
+    font-size: 80px;
+    color: white;
+    position: relative;
+    animation: arrow 3s ease-out  infinite;
+}
+.arrowcontainer{
+    position: absolute;
+    width: 100%;
+    height: 180%;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @media screen and (max-width: 868px) {
     .card_title{

@@ -12,13 +12,11 @@
     z-index: 1000000;
     top: 0;
 }
-
 .navbar_logo{
     font-size: 25px;
     padding-left: 15px;
 }
 .navbar_logo:hover{
-    text-decoration: underline;
     cursor: pointer;
 }
 .navbar_links{
@@ -41,7 +39,9 @@
     border: none;
     color: inherit;
 }
-
+.link:hover{
+text-decoration: underline;
+}
 @media screen and (max-width: 1340px){
     .navbar_links{
         gap: 100px;
