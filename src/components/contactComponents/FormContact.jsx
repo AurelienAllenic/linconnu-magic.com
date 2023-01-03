@@ -34,7 +34,7 @@ function FormContact() {
           <Input id='name' type="text" name='name' placeholder='Nom / Prénom' required />
           <Input id='email' type="email" name='email' placeholder='email' required />
         </InputDiv>
-        <Textarea id='textarea' name="message" placeholder='Message ( étirer le champ en bas à droite si besoin )' rows="7" required></Textarea>
+        <Textarea id='textarea' name="message" placeholder='Message' rows="7" required></Textarea>
         <Button type='submit' className='btn btn-primary'>Envoyer</Button>
       </Form>
     </>

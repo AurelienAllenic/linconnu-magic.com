@@ -151,6 +151,9 @@ border-radius: 10px 10px 10px 10px;
   outline: none;
   text-align: left;
  }
+ &::placeholder{
+  text-align: center;
+ }
  @media (max-width: 1630px){
   height: 130px;
 }
