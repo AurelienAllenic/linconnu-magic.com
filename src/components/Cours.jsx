@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from "react-scroll"
 import { BorderClass, MainPhraseClass, Ul, Li, SecondTextClass, ThirdTextClass, ContactClass, IconClass, ContainerLogoAndClass, PostScriptum } from "../utils/style/Cours"
 import { MainTitle } from "../utils/style/bio"
 import { BsFillSuitSpadeFill } from "react-icons/bs"

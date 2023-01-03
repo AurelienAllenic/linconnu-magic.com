@@ -2,6 +2,7 @@ import React from 'react'
 import "../utils/style/carousel.css"
 import { useState, useEffect } from "react"
 import { BsChevronDoubleDown } from "react-icons/bs"
+import { Link } from "react-scroll"
 
 function Caroussel({ images }) {
     const [current, setCurrent] = useState(0)
@@ -30,12 +31,12 @@ function Caroussel({ images }) {
                                 <div className='card-overlay'>
                                     <h2 className='card_title'>{image.title}</h2>
                                 </div>
-                                <div className='arrowcontainer'><span className='arrow'><BsChevronDoubleDown /></span></div>
+                                <div className='arrowcontainer'><Link className='arrow' to='bio' spy={true} smooth={true} offset={0} duration={500}><BsChevronDoubleDown /></Link></div>
 
                             </div>
                         )
                     })}
-                    x
+
                 </div>
 
             </div>
