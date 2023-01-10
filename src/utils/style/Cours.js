@@ -8,16 +8,16 @@ width: 100%;
 export const BorderClass = styled.div`
 opacity: 0.8;
 height: auto;
-margin-left: 50px;
-margin-right: 50px;
 padding: 15px;
-margin-top: 50px;
 font-weight: 500;
 line-height: 35px;
 text-align: center;
 border-radius: 10px 10px 10px 10px;
 animation: fall 3s forwards;
-margin-bottom: 5%;
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 50px;
+margin-bottom: 100px;
 @media (max-width: 893px){
   margin-right: 25px;
   margin-left: 25px;
