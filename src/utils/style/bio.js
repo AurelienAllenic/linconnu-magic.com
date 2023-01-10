@@ -6,8 +6,8 @@ font-size: 45px;
 display:flex;
 justify-content: center;
 align-items: center;
-padding-top: 100px;
-padding-bottom: 50px;
+margin-top: 100px;
+margin-bottom: 50px;
 animation: fade 1s forwards;
 animation-delay: 3s;
   @keyframes fade {
@@ -18,22 +18,16 @@ animation-delay: 3s;
       opacity: 1;
     }
   }
-@media (max-width: 820px){
-  left: 40%;
-}
 `
 export const CardInCenter = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
 width: 100%;
-height: 85vh;
+height: auto;
 margin-top: 90px;
 color: white;
 font-weight: 600;
-@media (max-width: 736px) and (max-height: 414px){
-  height: 100vh;
-}
 `
 
 export const BioCard = styled.div`
