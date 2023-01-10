@@ -38,22 +38,17 @@ justify-content: center;
 flex-direction: column;
 opacity: 0.8;
 padding: 15px;
-margin-left: 50px;
-margin-right: 50px;
-margin-top: 50px;
-margin-bottom: 5%;
+margin: 50px;
 width: 100%;
 height: auto;
 border-radius: 10px 10px 10px 10px;
 z-index: 1;
 animation: fall 3s forwards;
 @media (max-width: 893px){
-  margin-right: 25px;
-  margin-left: 25px;
+  margin: 25px;
 }
   @media (max-width: 699px){
-    margin-right: 15px;
-    margin-left: 15px;
+    margin: 15px;
   }
 @keyframes fall {
   0% {
