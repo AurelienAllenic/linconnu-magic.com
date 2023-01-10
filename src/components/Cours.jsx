@@ -4,6 +4,7 @@ import { MainTitle } from "../utils/style/bio"
 import { BsFillSuitSpadeFill } from "react-icons/bs"
 import { GiTwoCoins, GiCube, GiRing } from "react-icons/gi"
 import { Parallax } from 'react-parallax';
+import { Link } from 'react-scroll'
 import CoursIMG from "../assets/cours.webp"
 
 function Cours() {
@@ -22,7 +23,7 @@ function Cours() {
                                 <ContainerLogoAndClass><IconClass><GiCube /></IconClass><Li>Rubik's Cube</Li></ContainerLogoAndClass>
                             </Ul>
                             <SecondTextClass>Qu'il s'agisse de scène ou de Close-Up, Linconnu pourra vous proposer des cours adaptés à vos besoins et envies</SecondTextClass>
-                            <ThirdTextClass>Les tarifs des cours varient en fonction du temps et coût de déplacement, n'hésitez pas à <ContactClass href="#contact">contacter Linconnu</ContactClass> pour plus d'informations</ThirdTextClass>
+                            <ThirdTextClass>Les tarifs des cours varient en fonction du temps et coût de déplacement, n'hésitez pas à <ContactClass><Link to='contact' spy={true} smooth={true} offset={0} duration={800}>contacter Linconnu</Link></ContactClass> pour plus d'informations</ThirdTextClass>
                             <PostScriptum>( Veuillez préciser votre nom, prénom, lieu désiré pour la prise du cours, ainsi que vos disponibilités )</PostScriptum>
                         </BorderClass>
                     </ContainerClass>

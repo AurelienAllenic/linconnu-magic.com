@@ -132,8 +132,6 @@ color: white;
 }
 `
 export const ContactClass = styled.a`
-text-decoration : none;
-color: black;
 font-weight: 900;
 color: white;
 @media(max-width: 736px) and (max-height: 414px) {
