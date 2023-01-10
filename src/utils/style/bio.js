@@ -25,7 +25,7 @@ align-items: center;
 justify-content: center;
 width: 100%;
 height: auto;
-margin-top: 90px;
+margin-top: 50px;
 color: white;
 font-weight: 600;
 `
@@ -40,13 +40,13 @@ opacity: 0.8;
 padding: 15px;
 margin-left: 50px;
 margin-right: 50px;
-padding-bottom: 20px;
+margin-top: 50px;
+margin-bottom: 5%;
 width: 100%;
 height: auto;
 border-radius: 10px 10px 10px 10px;
 z-index: 1;
 animation: fall 3s forwards;
-margin-bottom: 350px;
 @media (max-width: 893px){
   margin-right: 25px;
   margin-left: 25px;
