@@ -1,40 +1,38 @@
 import styled from "styled-components"
 
+export const ContainerPrestation = styled.div`
+display: flex;
+align-items: center;
+justify-content: center;
+`
 export const CardPrestation = styled.div`
-position: relative;
 margin-top: 90px;
 opacity: 0.8;
 background: #eee;
-left: 26.5%;
-width: 50%;
 height: auto;
 padding-top: 25px;
+margin-bottom: 100px;
 text-align: center;
 line-height: 35px;
 border-radius: 10px 10px 10px 10px;
 color: black;
+margin-left: 50px;
+margin-right: 50px;
 animation: fall 3s forwards;
-  @media (max-width: 1115px){
-    width: 65%;
-    left: 20%;
-  }
-  @media (max-width: 1036px){
-    width: 85%;
-    left: 10%;
-  }
-@media (max-width: 820px){
-    width: 80%;
-    left: 10%;
-    top: 5%;
-  }
+@media (max-width: 893px){
+  margin-right: 25px;
+  margin-left: 25px;
+}
   @media(max-width: 736px) and (max-height: 414px) {
     line-height: 30px;
+  } 
+  @media (max-width: 699px){
+    margin-right: 15px;
+    margin-left: 15px;
   }
   @media (max-width: 545px){
     line-height: 30px;
     padding: 30px;
-    width: 90%;
-    left: 0%;
     opacity: 1;
 }
 @media (max-width: 438px){

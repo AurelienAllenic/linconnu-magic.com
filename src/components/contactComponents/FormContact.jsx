@@ -4,10 +4,7 @@ import { useRef } from 'react'
 import emailjs from 'emailjs-com'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { MainTitle } from "../../utils/style/bio"
 import "../../index.css"
-import { Important } from "../../utils/style/prestation"
-import { PostScriptum } from "../../utils/style/Cours"
 
 
 function FormContact() {
@@ -27,9 +24,9 @@ function FormContact() {
 
   return (
     <>
-      <MainTitle>Contact</MainTitle>
-      <ToastContainer />
+
       <Form ref={form} onSubmit={sendEmail}>
+        <ToastContainer />
         <InputDiv>
           <Input id='name' type="text" name='name' placeholder='Nom / Prénom' required />
           <Input id='email' type="email" name='email' placeholder='email' required />

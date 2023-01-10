@@ -1,112 +1,74 @@
 import styled from "styled-components"
-import imgContact from "../../assets/contact.webp"
-import imgContact2 from "../../assets/contact2.webp"
 
-
-export const ImageContact = styled.div`
-  background: url(${imgContact}) no-repeat center/cover;
-  height: 100vh;
-  width: 100%;
-  @media (max-width: 1280px){
-    background: url(${imgContact2}) no-repeat center/cover;
-  }
-  @media(max-width: 1256px) and (max-height: 777px) {
-    height: 120vh;
-  }
-  @media(max-width: 1256px) and (max-height:692px) {
-    height: 140vh;
-  }
-  @media(max-width: 1256px) and (max-height:612px) {
-    height: 160vh;
-  }
-  @media(max-width: 1256px) and (max-height:512px) {
-    height: 180vh;
-  }
-  @media(max-width: 1256px) and (max-height:447px) {
-    height: 200vh;
-  }
-  @media(max-width: 1256px) and (max-height:407px) {
-    height: 220vh;
-  }
-  @media(max-width: 1256px) and (max-height:366px) {
-    height: 240vh;
-  }
-  @media(max-width: 1256px) and (max-height:337px) {
-    height: 260vh;
-  }
-  @media(max-width: 1256px) and (max-height:311px) {
-    height: 280vh;
-  }
-  @media(max-width: 1256px) and (max-height:290px) {
-    height: 300vh;
-  }
-  @media(max-width: 1256px) and (max-height:234px) {
-    height: 360vh;
-  }
-  @media(max-width: 1256px) and (max-height:225px) {
-    height: 380vh;
-  }
-  @media(max-width: 1256px) and (max-height:212px) {
-    height: 420vh;
-  }
-  @media (max-width: 736px) and (max-height: 414px){
-    height: 220vh;
-  }
-  @media (max-width: 414px) and (max-height: 736px){
-    height: 120vh;
-  }
-  @media (max-width: 414px) and (max-height: 667px){
-    height: 130vh;
-  }
-`;
+export const ContactDiv = styled.div`
+padding: 50px;
+margin-top: 100px;
+@media (max-width: 420px){
+  padding: 20px;
+ }
+ @media (max-width: 350px){
+  padding: 15px;
+ }
+ @media (max-width: 300px){
+  padding: 10px;
+ }
+ @media (max-width: 250px){
+  padding: 5px;
+ }
+`
+export const FormAndCard = styled.div`
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 3rem;
+margin-left: 50px;
+margin-right: 50px;
+padding-bottom: 50px;
+@media (max-width: 1020px){
+  grid-template-columns: 1fr;
+}
+@media (max-width: 893px){
+  margin-right: 25px;
+  margin-left: 25px;
+}
+@media (max-width: 699px){
+  margin-right: 15px;
+  margin-left: 15px;
+}
+@media (max-width: 500px){
+  margin-right: 5px;
+  margin-left: 5px;
+}
+`
 export const Form = styled.form`
-  position: relative;
-  top: 20%;
-  left: 27%;
   display: flex;
   flex-direction: column;
-  width: 22%;
-  transform: rotate(-1.5deg);
+  background-color: #333;
+  padding: 15px;
   gap : 10px;
   animation: fade 3s forwards;
-} 
-@media (max-width: 1630px){
-  gap: 5px;
-  top: 18.5%;
-}
-@media (max-width: 1600px){
-  top: 19%;
-}
-@media (max-width: 1496px){
-  width: 25%;
-  left: 25%;
-}
-@media (max-width: 1320px){
-  left: 22%;
-  width: 29%;
-}
-@media (max-width: 1280px){
-  background-color: #333;
-  padding: 20px;
-  transform: rotate(0deg);
   border-radius: 10px 10px 10px 10px;
-  width: 94%;
-  left: 1%;
-  top: 10%;
-  margin-right: 1%;
-}
-@media (max-width: 789px){
-  width: fit-content;
-}
+} 
 `
 export const Input = styled.input`
 font-size: 25px;
 padding: 10px;
 width: 80%;
-background-color: #eee;
-border: 0;
+color: white;
+background-color: transparent;
+border: 1px solid white;
 border-radius: 10px 10px 10px 10px;
 text-align: center;
+&::placeholder{
+  color: white;
+}
+&:hover{
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid white;
+  &::placeholder{
+    color: black;
+  }
+}
 &:focus{
  outline: none;
  text-align: left;
@@ -116,17 +78,10 @@ text-align: center;
   font-size: 20px;
 }
 @media (max-width: 1280px){
-  color: white;
-  background-color: transparent;
   font-size: 25px;
-  &::placeholder{
-    color: white;
-  }
 }
 @media (max-width: 607px){
   font-size: 17px;
-  border-bottom: 1px solid white;
-  border-radius: 0px;
 }
 @media (max-width: 529px){
   font-size: 15px;
@@ -143,10 +98,21 @@ export const Textarea = styled.textarea`
 font-size: 20px;
 padding: 10px;
 margin-top: 10px;
-background-color: #eee;
+background-color: transparent;
 height: 140px;
-border: 0;
+border: 1px solid white;
+color: white;
 border-radius: 10px 10px 10px 10px;
+&::placeholder{
+  color: white;
+}
+&:hover{
+  cursor: pointer;
+  border: 1px solid white;
+  &::placeholder{
+    color: black;
+  }
+}
 &:focus{
   outline: none;
   text-align: left;
@@ -187,10 +153,12 @@ justify-content: center;
 position: relative;
 left: 35%;
 cursor: pointer;
-border: 0;
+border: 1px solid white;
 border-radius: 10px 10px 10px 10px;
+background-color: transparent;
+color: white;
 &:hover{
-  background-color: transparent;
+  color: black;
   font-weight: 600;
 }
 @media (max-width: 1280px){
@@ -211,35 +179,12 @@ flex-direction: row;
 gap : 10px;
 `
 export const CardContact = styled.div`
-width: 25%;
-height: 400px;
+height: auto;
 opacity: 0.8;
-position : relative;
-left: 60%;
-top: -15%;
 border-radius: 10px 10px 10px 10px;
 animation: fall 3s forwards;
-@media (max-width: 1351px){
-  height: 450px;
-}
 @media (max-width: 1280px){
-  width: 99%;
-  left: 0%;
-  top: 15%;
-  height: 200px;
   opacity: 1;
-}
-@media (max-width: 424px){
-  height: 250px;
-  top: 12%;
-}
-@media (max-width: 270px){
-  height: 280px;
-  top: 10%;
-}
-@media (max-width: 244px){
-  height: 350px;
-  top: 8%;
 }
 `
 export const ContentContactCard = styled.p`
@@ -266,8 +211,4 @@ color: white;
 @media (max-width: 512px){
   line-height: 23px;
 }
-`
-export const ContactDiv = styled.div`
-width: 100%;
-height: 100vh;
 `

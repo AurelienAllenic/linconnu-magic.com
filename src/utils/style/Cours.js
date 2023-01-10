@@ -1,11 +1,15 @@
 import styled from "styled-components"
-
+export const ContainerClass = styled.div`
+display: flex;
+align-items:center;
+justify-content: center;
+width: 100%;
+`
 export const BorderClass = styled.div`
-width: 55%;
 opacity: 0.8;
 height: auto;
-position : relative;
-left: 23.5%;
+margin-left: 50px;
+margin-right: 50px;
 padding: 15px;
 margin-top: 50px;
 font-weight: 500;
@@ -14,31 +18,19 @@ text-align: center;
 border-radius: 10px 10px 10px 10px;
 animation: fall 3s forwards;
 margin-bottom: 5%;
-@media (max-width: 1630px){
-    top: 2%;
+@media (max-width: 893px){
+  margin-right: 25px;
+  margin-left: 25px;
 }
-  @media (max-width: 1115px){
-    width: 65%;
-    left: 20%;
-  }
-  @media (max-width: 1036px){
-    width: 85%;
-    left: 10%;
-  }
 @media (max-width: 820px){
-    width: 85%;
-    left: 7%;
-    top: 1%;
     padding: 15px;
   }
-  @media(max-width: 845px){
-    width: 90%;
-    left: 4%;
+  @media (max-width: 699px){
+    margin-right: 15px;
+    margin-left: 15px;
   }
   @media (max-width: 545px){
     line-height: 32px;
-    width: 90%;
-    left: 0%;
     padding: 30px;
     opacity: 1;
   }

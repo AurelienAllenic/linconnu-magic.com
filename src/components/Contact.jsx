@@ -1,19 +1,24 @@
 import React from 'react'
-import { ImageContact } from "../utils/style/contact"
 import FormContact from './contactComponents/FormContact'
 import InfosContact from './contactComponents/InfosContact'
-import { ContactDiv } from "../utils/style/contact"
+import { ContactDiv, FormAndCard } from "../utils/style/contact"
+import { Parallax } from 'react-parallax';
+import ContactIMG from "../assets/contact.webp"
+import { MainTitle } from "../utils/style/bio"
 
 function Contact() {
     return (
         <>
             <section id="contact">
-                <ImageContact>
+                <Parallax className='img' bgImage={ContactIMG} strength={800}>
+                    <MainTitle>Contact</MainTitle>
                     <ContactDiv>
-                        <FormContact />
-                        <InfosContact />
+                        <FormAndCard>
+                            <FormContact />
+                            <InfosContact />
+                        </FormAndCard>
                     </ContactDiv>
-                </ImageContact>
+                </Parallax>
             </section>
         </>
     )
